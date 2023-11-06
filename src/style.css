@@ -1,0 +1,282 @@
+/* -----------------------------------------------------------------
+                            Font Family                             
+  ------------------------------------------------------------------
+*/
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/* -----------------------------------------------------------------
+                   SECTION 6 ==> Our Hiring Partner                            
+  ------------------------------------------------------------------
+*/
+
+
+.slick-wrapper {
+  width: 100%;
+  position: relative;
+}
+
+.slick-wrapper #slick1 .slide-item {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: auto;
+}
+
+.slick-wrapper #slick1 .slide-item h3 {
+  font-family: Lato, sans-serif;
+  font-size: 40px;
+}
+
+.prev-arrow {
+  position: absolute;
+  top: 95%;
+  left: 45%;
+}
+
+.next-arrow {
+  position: absolute;
+  top: 95%;
+  right: 45%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .prev-arrow {
+    position: absolute;
+    left: 44%;
+  }
+
+  .next-arrow {
+    position: absolute;
+    right: 44%;
+  }
+}
+
+
+@media only screen and (max-width: 680px) {
+  .prev-arrow {
+    position: absolute;
+    top: 80%;
+    left: 43%;
+  }
+
+  .next-arrow {
+    position: absolute;
+    top: 80%;
+    right: 43%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .prev-arrow {
+    position: absolute;
+    top: 90%;
+    left: 43%;
+  }
+
+  .next-arrow {
+    position: absolute;
+    top: 90%;
+    right: 43%;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .prev-arrow {
+    position: absolute;
+    top: 95%;
+    left: 40%;
+  }
+
+  .next-arrow {
+    position: absolute;
+    top: 95%;
+    right: 40%;
+  }
+}
+
+
+/* -----------------------------------------------------------------
+                     SECTION 2 ==> Popular Courses                           
+  ------------------------------------------------------------------
+*/
+
+.prev-arrow1 {
+  position: absolute;
+  top: -8%;
+  right: 6%;
+}
+
+.next-arrow1 {
+  position: absolute;
+  top: -8%;
+  right: 0%;
+}
+
+@media only screen and (max-width: 530px) {
+  .prev-arrow1 {
+    position: absolute;
+    top: -10%;
+    right: 10%;
+  }
+
+  .next-arrow1 {
+    position: absolute;
+    top: -10%;
+    right: 0%;
+  }
+}
+
+
+
+
+/* -----------------------------------------------------------------
+                            Heading tag                             
+  ------------------------------------------------------------------
+*/
+
+
+
+nav {
+  font-weight: 400;
+}
+
+h2 span {
+  position: relative;
+
+}
+
+h2 span::after {
+  content: "";
+  width: 100%;
+  height: 5px;
+  background-color: red;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+}
+
+
+
+/* -----------------------------------------------------------------
+                    SECTION 1 ==> Grow with skill                             
+  ------------------------------------------------------------------
+*/
+
+
+.responsive-iframe {
+  width: 100%;
+  height: 600px;
+  border: none;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .responsive-iframe {
+    height: 450px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .responsive-iframe {
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .responsive-iframe {
+    height: 300px;
+  }
+}
+
+
+/* -----------------------------------------------------------------
+                  SECTION 5 ==> Student Review                          
+  ------------------------------------------------------------------
+*/
+
+
+
+.center-slider .slick-slide {
+  margin: 0 15px;
+}
+
+@media only screen and (min-width: 640px) {
+
+  /* Default slide */
+  .center-slider .slick-slide {
+    margin: 0 15px;
+    padding: 20px 0px;
+    transform: scale(0.8);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .center-slider .slick-slide,
+  .center-slider .slick-slide[aria-hidden="true"]:not(.slick-cloned)~.slick-cloned[aria-hidden="true"] {
+    transform: scale(0.8, 0.8);
+    transition: all 0.4s ease-in-out;
+  }
+
+  /* Active center slide (You can change anything here for cenetr slide)*/
+  .center-slider .slick-center,
+  .center-slider .slick-slide[aria-hidden="true"]:not([tabindex="-1"])+.slick-cloned[aria-hidden="true"] {
+    transform: scale(1.1);
+
+  }
+
+  .center-slider .slick-current.slick-active {
+    transform: scale(1.1);
+  }
+}
+
+
+.slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: #ed2224;
+}
+
+.slick-dots li button:before {
+  font-family: slick;
+  font-size: 6px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  background-color: #ed2224;
+  border-radius: 100%;
+  content: '•';
+  text-align: center;
+  /* opacity: .25; */
+  color: #ed2224;
+  /* -webkit-font-smoothing: antialiased; */
+  /* -moz-osx-font-smoothing: grayscale; */
+  margin-top: 40px;
+}
+
+
+/* -----------------------------------------------------------------
+                   SECTION 6 ==> Our Hiring Partner                          
+  ------------------------------------------------------------------
+*/
+
+
+.p-logo {
+  border-radius: 16px;
+  background: #FFF;
+  padding: 20px;
+  box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.16);
+  height: 90px;
+  margin: 7.5px 15px;
+  width: 100%;
+}
+
+.p-logo img {
+  margin: 0px auto;
+  height: 50px;
+}

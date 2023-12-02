@@ -23,14 +23,72 @@ closeMenuButton.addEventListener('click', () => {
 });
 
 
+$(document).ready(function () {
+  $(document).on("scroll", onScroll);
+  
+  //smoothscroll
+  $('a[href^="#"]').on('click', function (e) {
+      e.preventDefault();
+      $(document).off("scroll");
+      
+      $('a').each(function () {
+          $(this).removeClass('active');
+      })
+      $(this).addClass('active');
+    
+      var target = this.hash,
+          menu = target;
+      $target = $(target);
+      $('html, body').stop().animate({
+          'scrollTop': $target.offset().top+2
+      }, 700, 'swing', function () {
+          window.location.hash = target;
+          $(document).on("scroll", onScroll);
+      });
+  });
+});
+
+function onScroll(event){
+  var scrollPos = $(document).scrollTop();
+  $('.menu-center a').each(function () {
+      var currLink = $(this);
+      var refElement = $(currLink.attr("href"));
+      if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+          $('.menu-center ul li a').removeClass("active");
+          currLink.addClass("active");
+      }
+      else{
+          currLink.removeClass("active");
+      }
+  });
+}
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("navbar").style.top = "0px";
+  } else {
+    document.getElementById("navbar").style.top = "34px";
+    document.getElementById("logoimg").style.width = "200px";
+    document.getElementById("logoimg").style.paddingBlock = "10px";
+  }
+}
+
+
 
 // -----------------------------------------------------------------
 //                 SECTION 1 ==> Grow with skill
 // -----------------------------------------------------------------
 
+let vdo = document.getElementById('video1');
 
-function toggleModal() { document.getElementById('modal').classList.toggle('hidden')
+function toggleModal() { 
+  document.getElementById('modal').classList.toggle('hidden')
+  vdo.pause();
 }
+
+
 
 
 
@@ -58,7 +116,7 @@ $('#popularCourses').slick({
         slidesToShow: 3, 
         slidesToScroll: 3, 
         infinite: true, 
-        dots: true 
+        dots: false 
       } 
     }, 
     { 

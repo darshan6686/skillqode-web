@@ -32,7 +32,7 @@
   <!------------------------------------------------------------------->
 
 
-  <header class="relative">
+  <header class="">
     <div class="w-full h-auto flex items-center justify-end bg-[#ed2224] text-white py-1">
       <div class="w-full lg:w-2/3 xl:w-1/2 text-[7px] sm:text-xs md:text-base">
         <a href="javascript:void(0)" class="mx-2 sm:mx-2 font-medium">100% job placements</a>
@@ -43,8 +43,8 @@
     </div>
     
     <div class="container-2xl max-w-[1700px] mx-auto bg-white">
-      <nav class="py-2 z-50" id="menu">
-        <div class="container-2xl flex justify-between items-center px-0 xl:px-32 2xl:px-64 z-50 w-full 2xl:w-[1679px] fixed menu-center" id="navbar">
+      <nav class="py-2 z-50 bg-white w-full 2xl:w-[1679px] fixed" id="navbar">
+        <div class="container-2xl flex justify-between items-center px-0 xl:px-32 2xl:px-64 menu-center relative" id="">
           <div class="font-semibold cursor-pointer px-4" id="logoimg">
             <img src='../Asset/Color.svg' class="w-40 lg:w-56 h-auto" style="background-color: transparent;" />
           </div>
@@ -53,15 +53,15 @@
 
           <!-- Close Mobile Menu Button (Initially Hidden) -->
 
-          <button id="closemenu" class="hidden md:hidden text-2xl z-30 absolute top-3 right-5 text-white">
+          <!-- <button id="closemenu" class="hidden md:hidden text-2xl z-50 absolute top-3 right-5 text-white">
             <i class="fa-solid fa-xmark"></i>
-          </button>
+          </button> -->
 
 
 
           <!-- Mobile Menu Button -->
 
-          <button id="openmenu" class="text-black text-2xl md:hidden">
+          <button id="openmenu" class="text-black text-2xl md:hidden pr-4">
             <i class="fa-solid fa-bars"></i>
           </button>
 
@@ -69,7 +69,7 @@
 
           <!-- Desktop Menu -->
 
-          <ul class="hidden md:flex space-x-4 lg:space-x-8 z-50">
+          <ul class="hidden md:flex space-x-4 lg:space-x-8">
 
             <li class="my-2 mx-2">
               <a class="text-black font-semibold text-lg hover:underline hover:underline-offset-8 hover:decoration-[#ed2224] hover:decoration-4 active"
@@ -121,7 +121,12 @@
 
         <!-- Mobile Menu (Initially Hidden) -->
 
-        <ul id="mobilemenu" class="hidden md:hidden absolute top-0 right-0 h-[100vh] w-1/2 bg-[#ed2224] space-y-5 p-4">
+        <ul id="mobilemenu" class="hidden md:hidden z-50 absolute top-0 right-0 h-[100vh] w-1/2 bg-[#ed2224] space-y-5 p-4">
+
+          <button id="closemenu" class="float-right text-white text-2xl">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+
           <li class="mt-14">
             <a class="text-white" href="#home">
               Home
@@ -913,7 +918,7 @@
           <div class="center-slider">
             <div>
               <div
-                class="w-96 xs:w-80 ms:w-full sm:w-auto h-auto bg-red-100 py-3 lg:py-7 p-1 xs:p-2 lg:p-5 rounded-xl sm:rounded-3xl">
+                class="w-96 xs:w-80 ms:w-full sm:w-[200px] h-auto bg-red-100 py-3 lg:py-7 p-1 xs:p-2 lg:p-5 rounded-xl sm:rounded-3xl">
                 <div class="flex sm:gap-2 text-[12px] ms:text-[14px] md:text-lg lg:text-2xl text-[#ed2224]">
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
@@ -922,7 +927,7 @@
                   <i class="fa-solid fa-star"></i>
                 </div>
 
-                <p class="mt-7 sm:mt-12 text-start text-[14px] sm:text-[13px] lg:text-base">Lorem
+                <p class="mt-7 sm:mt-12 text-start text-[14px] sm:text-[10px] lg:text-base">Lorem
                   ipsum, dolor sit amet consectetur adipisicing elit. Veritatis quia
                   eaque beatae
                   sunt laboriosam ullam, magni quasi quaerat iure ut odio perferendis officia debitis eveniet
@@ -939,7 +944,7 @@
 
             <div>
               <div
-                class="w-96 xs:w-80 ms:w-full sm:w-auto h-auto bg-red-100 py-3 lg:py-7 p-1 xs:p-2 lg:p-5 rounded-xl sm:rounded-3xl">
+                class="w-96 xs:w-80 ms:w-full sm:w-[200px] h-auto bg-red-100 py-3 lg:py-7 p-1 xs:p-2 lg:p-5 rounded-xl sm:rounded-3xl">
                 <div class="flex sm:gap-2 text-[12px] ms:text-[14px] md:text-lg lg:text-2xl text-[#ed2224]">
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
@@ -948,7 +953,7 @@
                   <i class="fa-solid fa-star"></i>
                 </div>
 
-                <p class="mt-7 sm:mt-12 text-start text-[14px] sm:text-[13px] lg:text-base">Lorem
+                <p class="mt-7 sm:mt-12 text-start text-[14px] sm:text-[10px] lg:text-base">Lorem
                   ipsum, dolor sit amet consectetur adipisicing elit. Veritatis quia
                   eaque beatae
                   sunt laboriosam ullam, magni quasi quaerat iure ut odio perferendis officia debitis eveniet
@@ -965,7 +970,7 @@
 
             <div>
               <div
-                class="w-96 xs:w-80 ms:w-full sm:w-auto h-auto bg-red-100 py-3 lg:py-7 p-1 xs:p-2 lg:p-5 rounded-xl sm:rounded-3xl">
+                class="w-96 xs:w-80 ms:w-full sm:w-[200px] h-auto bg-red-100 py-3 lg:py-7 p-1 xs:p-2 lg:p-5 rounded-xl sm:rounded-3xl">
                 <div class="flex sm:gap-2 text-[12px] ms:text-[14px] md:text-lg lg:text-2xl text-[#ed2224]">
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
@@ -974,7 +979,7 @@
                   <i class="fa-solid fa-star"></i>
                 </div>
 
-                <p class="mt-7 sm:mt-12 text-start text-[14px] sm:text-[13px] lg:text-base">Lorem
+                <p class="mt-7 sm:mt-12 text-start text-[14px] sm:text-[10px] lg:text-base">Lorem
                   ipsum, dolor sit amet consectetur adipisicing elit. Veritatis quia
                   eaque beatae
                   sunt laboriosam ullam, magni quasi quaerat iure ut odio perferendis officia debitis eveniet
@@ -991,7 +996,7 @@
 
             <div>
               <div
-                class="w-96 xs:w-80 ms:w-full sm:w-auto h-auto bg-red-100 py-3 lg:py-7 p-1 xs:p-2 lg:p-5 rounded-xl sm:rounded-3xl">
+                class="w-96 xs:w-80 ms:w-full sm:w-[200px] h-auto bg-red-100 py-3 lg:py-7 p-1 xs:p-2 lg:p-5 rounded-xl sm:rounded-3xl">
                 <div class="flex sm:gap-2 text-[12px] ms:text-[14px] md:text-lg lg:text-2xl text-[#ed2224]">
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
@@ -1000,7 +1005,7 @@
                   <i class="fa-solid fa-star"></i>
                 </div>
 
-                <p class="mt-7 sm:mt-12 text-start text-[14px] sm:text-[13px] lg:text-base">Lorem
+                <p class="mt-7 sm:mt-12 text-start text-[14px] sm:text-[10px] lg:text-base">Lorem
                   ipsum, dolor sit amet consectetur adipisicing elit. Veritatis quia
                   eaque beatae
                   sunt laboriosam ullam, magni quasi quaerat iure ut odio perferendis officia debitis eveniet

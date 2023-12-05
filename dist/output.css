@@ -1516,10 +1516,6 @@ video {
   transition-duration: 700ms;
 }
 
-.active\:block:active {
-  display: block;
-}
-
 .group[open] .group-open\:rotate-0 {
   --tw-rotate: 0deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1831,24 +1827,16 @@ video {
     width: 2.25rem;
   }
 
+  .sm\:w-\[200px\] {
+    width: 200px;
+  }
+
   .sm\:w-auto {
     width: auto;
   }
 
   .sm\:w-full {
     width: 100%;
-  }
-
-  .sm\:w-\[220px\] {
-    width: 220px;
-  }
-
-  .sm\:w-\[210px\] {
-    width: 210px;
-  }
-
-  .sm\:w-\[200px\] {
-    width: 200px;
   }
 
   .sm\:max-w-\[600px\] {
@@ -1954,8 +1942,8 @@ video {
     line-height: 2.5rem;
   }
 
-  .sm\:text-\[13px\] {
-    font-size: 13px;
+  .sm\:text-\[10px\] {
+    font-size: 10px;
   }
 
   .sm\:text-\[15px\] {
@@ -2001,10 +1989,6 @@ video {
   .sm\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
-  }
-
-  .sm\:text-\[10px\] {
-    font-size: 10px;
   }
 }
 
@@ -2085,6 +2069,42 @@ video {
 
   .md\:w-24 {
     width: 6rem;
+  }
+
+  .md\:w-56 {
+    width: 14rem;
+  }
+
+  .md\:w-64 {
+    width: 16rem;
+  }
+
+  .md\:w-60 {
+    width: 15rem;
+  }
+
+  .md\:w-52 {
+    width: 13rem;
+  }
+
+  .md\:w-\[200px\] {
+    width: 200px;
+  }
+
+  .md\:w-\[196px\] {
+    width: 196px;
+  }
+
+  .md\:w-\[195px\] {
+    width: 195px;
+  }
+
+  .md\:w-\[193px\] {
+    width: 193px;
+  }
+
+  .md\:w-auto {
+    width: auto;
   }
 
   .md\:max-w-2xl {
@@ -2262,6 +2282,30 @@ video {
     width: auto;
   }
 
+  .lg\:w-72 {
+    width: 18rem;
+  }
+
+  .lg\:w-\[270px\] {
+    width: 270px;
+  }
+
+  .lg\:w-\[260px\] {
+    width: 260px;
+  }
+
+  .lg\:w-\[265px\] {
+    width: 265px;
+  }
+
+  .lg\:w-\[2500px\] {
+    width: 2500px;
+  }
+
+  .lg\:w-\[250px\] {
+    width: 250px;
+  }
+
   .lg\:max-w-\[950px\] {
     max-width: 950px;
   }
@@ -2403,6 +2447,10 @@ video {
     width: 24rem;
   }
 
+  .xl\:w-64 {
+    width: 16rem;
+  }
+
   .xl\:max-w-5xl {
     max-width: 64rem;
   }
@@ -2417,6 +2465,10 @@ video {
 
   .xl\:max-w-\[200px\] {
     max-width: 200px;
+  }
+
+  .xl\:max-w-full {
+    max-width: 100%;
   }
 
   .xl\:items-center {

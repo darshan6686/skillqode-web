@@ -76,6 +76,9 @@ function scrollFunction() {
 }
 
 
+// AOS.init();
+
+
 
 // -----------------------------------------------------------------
 //                 SECTION 1 ==> Grow with skill
@@ -146,7 +149,7 @@ $('#popularCourses').slick({
       1536: {
         perView: 5
       },
-      1280: {
+      1270: {
         perView: 4
       },
       768: {

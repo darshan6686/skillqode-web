@@ -1,0 +1,1563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillQode</title>
+    <link rel="icon" type="images/x-icon"
+        href="https://skillqode.in/public/Frontassets/images/Skill-qode-favicon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Space+Grotesk:wght@600&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../../dist/output.css">
+</head>
+
+<body>
+
+    <!------------------------------------------------------------------->
+    <!--                            HEADER                             -->
+    <!------------------------------------------------------------------->
+
+
+    <header class="">
+        <div class="w-full h-auto flex items-center justify-end bg-[#ed2224] text-white py-1">
+            <div class="w-full lg:w-2/3 xl:w-1/2 text-[7px] sm:text-xs md:text-base">
+                <a href="javascript:void(0)" class="mx-2 sm:mx-2 font-medium">100% job placements</a>
+                <a href="javascript:void(0)" class="mx-2 sm:mx-2 font-medium">Lifetime Support</a>
+                <a href="javascript:void(0)" class="mx-2 sm:mx-2 font-medium">Expert Team</a>
+                <a href="javascript:void(0)" class="mx-2 sm:mx-2 font-medium">Contact</a>
+            </div>
+        </div>
+
+        <div class="container-2xl max-w-[1700px] mx-auto bg-white">
+            <div class="py-2 z-50 bg-white w-full 2xl:w-[1679px] nav-wrapper" id="navbar">
+                <nav
+                    class="container-2xl flex justify-between items-center px-0 xl:px-32 2xl:px-64 menu-center relative">
+                    <div class="font-semibold cursor-pointer px-4" id="logoimg">
+                        <img src='../../Asset/Color.svg' class="w-40 lg:w-56 h-auto"
+                            style="background-color: transparent;" />
+                    </div>
+
+
+
+                    <!-- Close Mobile Menu Button (Initially Hidden) -->
+
+                    <!-- <button id="closemenu" class="hidden md:hidden text-2xl z-50 absolute top-3 right-5 text-white">
+            <i class="fa-solid fa-xmark"></i>
+          </button> -->
+
+
+
+                    <!-- Mobile Menu Button -->
+
+                    <button id="openmenu" class="text-black text-2xl md:hidden pr-4">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+
+
+
+                    <!-- Desktop Menu -->
+
+                    <ul class="hidden md:flex space-x-4 lg:space-x-8">
+
+                        <li class="my-2 mx-2">
+                            <a class="text-black font-semibold text-lg hover:underline hover:underline-offset-8 hover:decoration-[#ed2224] hover:decoration-4 active"
+                                href="#home">
+                                Home
+                            </a>
+                        </li>
+                        <div class="dropdown inline-block relative my-2 mx-3">
+                            <button class="text-black font-semibold text-lg rounded inline-flex items-center">
+                              <li>
+                                <a href="#course" class="mr-1">
+                                  Course
+                                </a>
+                              </li>
+                              <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                              </svg>
+                            </button>
+                            <ul class="dropdown-menu absolute w-[250px] z-50 hidden bg-[#ed2224] text-white">
+                                <li class=""><a class="rounded-t py-2 px-4 block whitespace-no-wrap"
+                                    href="../uiux/uiux.html">UIUX Designing</a></li>
+                                <li class=""><a class="py-2 px-4 block whitespace-no-wrap"
+                                    href="../frontend/frontend.html">Frontend Development</a></li>
+                                <li class=""><a class="rounded-b py-2 px-4 block whitespace-no-wrap"
+                                    href="#">Bcakend Development</a></li>
+                                <li class=""><a class="rounded-b py-2 px-4 block whitespace-no-wrap"
+                                    href="../flutter/flutter.html">Flutter Development</a></li>
+                                <li class=""><a class="rounded-b py-2 px-4 block whitespace-no-wrap"
+                                    href="../fullstack/fullstack.html">fullStack Development</a></li>
+                                <li class=""><a class="rounded-b py-2 px-4 block whitespace-no-wrap"
+                                    href="../android/android.html">Android Development</a></li>
+                                <li class=""><a class="rounded-b py-2 px-4 block whitespace-no-wrap"
+                                    href="../ios/ios.html">Ios Development</a></li>
+                                <li class=""><a class="rounded-b py-2 px-4 block whitespace-no-wrap"
+                                    href="../python/python.html">Python Development</a></li>
+                                <li class=""><a class="rounded-b py-2 px-4 block whitespace-no-wrap"
+                                    href="../php/php.html">Php Development</a></li>
+                                    <li class=""><a class="rounded-b py-2 px-4 block whitespace-no-wrap" href="../angular/angular.html">Angular
+                                        Development</a></li>
+                                    <li class=""><a class="rounded-b py-2 px-4 block whitespace-no-wrap" href="../reactnative/reatcnative.html">Reactnative
+                                        Development</a></li>
+                                    <li class=""><a class="rounded-b py-2 px-4 block whitespace-no-wrap" href="../vue/vue.html">Vue
+                                        Development</a></li>
+                            </ul>
+                          </div>
+                        <li class="my-2 mx-3">
+
+                            <a class="text-black font-semibold text-lg hover:underline hover:underline-offset-8 hover:decoration-[#ed2224] hover:decoration-4"
+                                href="#placement">
+                                Placements
+                            </a>
+                        </li>
+                        <li class="my-2 mx-3">
+                            <a class="text-black font-semibold text-lg hover:underline hover:underline-offset-8 hover:decoration-[#ed2224] hover:decoration-4"
+                                href="#aboutus">
+                                About us
+                            </a>
+                        </li>
+                        <li class="my-2 mx-3">
+                            <a class="text-black font-semibold text-lg hover:underline hover:underline-offset-8 hover:decoration-[#ed2224] hover:decoration-4"
+                                href="#blog">
+                                Blog
+                            </a>
+                        </li>
+                        <li class="my-2 mx-3">
+                            <a class="text-black font-semibold text-lg hover:underline hover:underline-offset-8 hover:decoration-[#ed2224] hover:decoration-4"
+                                href="#event">
+                                Events
+                            </a>
+                        </li>
+                        <li class="my-2 mx-3">
+                            <a class="text-white px-3 py-0.5 bg-[#ed2224] rounded-full" href="javascript:void(0)">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+
+
+                </nav>
+
+
+                <!-- Mobile Menu (Initially Hidden) -->
+
+                <ul id="mobilemenu"
+                    class="hidden md:hidden z-50 absolute top-0 right-0 h-[100vh] w-1/2 bg-[#ed2224] space-y-5 p-4">
+
+                    <button id="closemenu" class="float-right text-white text-2xl">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+
+                    <li class="mt-14">
+                        <a class="text-white" href="#home">
+                            Home
+                        </a>
+                    </li>
+                    <li><button class="block py-2 hasSubMenu text-lg text-white">course<span class="inline-block"><svg
+                        data-baseweb="icon" viewBox="0 0 24 24" class="ml-1 w-4 h-4 fill-current chevron">
+                        <title>Chevron Down</title>
+                        <path transform="rotate(270, 12, 12)" fill-rule="evenodd" clip-rule="evenodd"
+                          d="M9 12C9 12.2652 9.10536 12.5196 9.29289 12.7071L13.2929 16.7071C13.6834 17.0976 14.3166 17.0976 14.7071 16.7071C15.0976 16.3166 15.0976 15.6834 14.7071 15.2929L11.4142 12L14.7071 8.70711C15.0976 8.31658 15.0976 7.68342 14.7071 7.29289C14.3166 6.90237 13.6834 6.90237 13.2929 7.29289L9.29289 11.2929C9.10536 11.4804 9 11.7348 9 12Z">
+                        </path>
+                      </svg> </span> </button>
+                  <ul class="bg-white text-sm subMenu hidden">
+                    <li class=""><a class="rounded-t py-2 px-4 block whitespace-no-wrap" href="../uiux/uiux.html">UIUX
+                        Designing</a></li>
+                    <li class=""><a class="py-2 px-4 block whitespace-no-wrap" href="../frontend/frontend.html">Frontend
+                        Development</a></li>
+                    <li class=""><a class="rounded-b py-2 px-4 block whitespace-no-wrap" href="#">Bcakend
+                        Development</a></li>
+                    <li class=""><a class="rounded-b py-2 px-4 block whitespace-no-wrap" href="../flutter/flutter.html">Flutter
+                        Development</a></li>
+                    <li class=""><a class="rounded-b py-2 px-4 block whitespace-no-wrap"
+                        href="../fullstack/fullstack.html">fullStack Development</a></li>
+                    <li class=""><a class="rounded-b py-2 px-4 block whitespace-no-wrap" href="../android/android.html">Android
+                        Development</a></li>
+                    <li class=""><a class="rounded-b py-2 px-4 block whitespace-no-wrap" href="../ios/ios.html">Ios
+                        Development</a></li>
+                    <li class=""><a class="rounded-b py-2 px-4 block whitespace-no-wrap" href="../python/python.html">Python
+                        Development</a></li>
+                    <li class=""><a class="rounded-b py-2 px-4 block whitespace-no-wrap" href="../php/php.html">Php
+                        Development</a></li>
+                        <li class=""><a class="rounded-b py-2 px-4 block whitespace-no-wrap" href="../angular/angular.html">Angular
+                            Development</a></li>
+                        <li class=""><a class="rounded-b py-2 px-4 block whitespace-no-wrap" href="../reactnative/reatcnative.html">Reactnative
+                            Development</a></li>
+                        <li class=""><a class="rounded-b py-2 px-4 block whitespace-no-wrap" href="../vue/vue.html">Vue
+                            Development</a></li>
+                  </ul>
+                </li>
+                    <li class="">
+                        <a class="text-white" href="#blog">
+                            Blog
+                        </a>
+                    </li>
+                    <li class="">
+                        <a class="text-white" href="#aboutus">
+                            About us
+                        </a>
+                    </li>
+                    <li class="">
+                        <a class="text-white" href="#placement">
+                            Placements
+                        </a>
+                    </li>
+                    <li class="">
+                        <a class="text-white" href="#event">
+                            Events
+                        </a>
+                    </li>
+                    <li class="">
+                        <a class="bg-white px-3 py-0.5 text-[#ed2224] rounded-full" href="javascript:void(0)">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </header>
+
+
+    <!------------------------------------------------------------------->
+    <!--                  SECTION 1 ==> Grow with skill                -->
+    <!------------------------------------------------------------------->
+
+
+    <section class="" id="home">
+        <div class='container-2xl max-w-[1700px] mx-auto h-auto md:px-8 mb-20 lg:mb-20 relative'>
+            <div class='mx-auto px-4 xl:pl-32 2xl:pl-64 my-10'>
+                <div class="sm:flex">
+                    <div class="sm:order-2">
+                        <div class="sm:hidden">
+                            <h1 class='font-bold text-3xl sm:text-4xl lg:text-5xl text-[#ed2224]'>Backend
+                            </h1>
+                            <h1 class='font-bold text-gray-800 text-3xl sm:text-4xl lg:text-5xl'>Development</h1>
+                        </div>
+                        <img src="../../Asset/backend/backend.png" class="bg-no-repeat mt-10 " alt="">
+                    </div>
+                    <div class="w-full lg:w-3/5 sm::order-1">
+                        <div class='mt-10 lg:mt-20'>
+                            <h1 class='hidden sm:block font-bold text-3xl sm:text-4xl lg:text-5xl text-[#ed2224]'>Backend
+                                <br />
+                                <span
+                                    class='hidden sm:block font-bold text-gray-800 text-3xl sm:text-4xl lg:text-5xl mt-5'>Development</span>
+                            </h1>
+
+                            <p class="mt-10">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita harum velit amet quo
+                                doloremque ipsa
+                                eligendi cupiditate dolorum natus dolore, corrupti, animi suscipit reprehenderit facilis
+                                explicabo
+                                provident ullam optio aspernatur!
+                            </p>
+                        </div>
+
+                        <div class='my-5 flex sm:block justify-between items-center'>
+                            <a href="#blog">
+                                <button
+                                    class='text-white text-xs sm:text-base bg-[#ed2224] border border-[#ed2224] hover:bg-white hover:text-[#ed2224] hover:duration-300 px-5 xs:px-10 sm:px-7 py-3 sm:py-2 rounded-full mt-0 sm:mt-7 md:mt-10 font-bold'>Book
+                                    Demo</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <img src="../../Asset/uiux/UX Design.png" class="max-w-full h-auto absolute bottom-0" alt=""> -->
+
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+
+    <!------------------------------------------------------------------->
+    <!--                SECTION 2 ==> What is in course?               -->
+    <!------------------------------------------------------------------->
+
+
+
+    <section>
+        <div class="container-2xl max-w-[1700px] h-auto mx-auto">
+            <div class="'mx-auto px-4 xl:px-32 2xl:px-64 my-10 sm:my-20 md:my-32">
+                <div class="text-center grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 ">
+                    <div class="mx-auto">
+                        <div class="p-4 rounded-full mb-4">
+                            <img src="../../Asset/backend/node.png" alt="">
+                        </div>
+                        <p>Node Js</p>
+                    </div>
+                    <div class="mx-auto">
+                        <div class="p-4 rounded-full mb-4 ">
+                            <img src="../../Asset/backend/mongodb.png" alt="">
+                        </div>
+                        <p>Mongo DB</p>
+                    </div>
+                    <div class="mx-auto mt-3">
+                        <div class="p-2 rounded-full mb-2">
+                            <img src="../../Asset/backend/express.png" alt="">
+                        </div>
+                        <hp>Express Js</p>
+                    </div>
+                    <div class="mx-auto mt-4">
+                        <div class="p-7 ms:p-4 rounded-full mb-4 ">
+                            <img src="../../Asset/backend/laravel-2 1.png" alt="">
+                        </div>
+                        <p>Laravel</p>
+                    </div>
+                    <div class="mx-auto mt-4 ms:mt-0">
+                        <div class="p-4 rounded-full mb-4 ">
+                            <img src="../../Asset/backend/mysql.png" alt="">
+                        </div>
+                        <p>MySQL</p>
+                    </div>
+                    <div class="mx-auto mt-6 ms:mt-0">
+                        <div class="p-4 rounded-full mb-2 sm:mb-4">
+                            <img src="../../Asset/backend/c.png" alt="">
+                        </div>
+                        <p>C Language</p>
+                    </div>
+                    <div class="mx-auto mt-3 md:mt-4">
+                        <div class="p-6 ms:p-4 rounded-full mb-4 ">
+                            <img src="../../Asset/backend/c++.png" alt="">
+                        </div>
+                        <p>c++</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!------------------------------------------------------------------->
+    <!--                SECTION 3 ==> What is in course?               -->
+    <!------------------------------------------------------------------->
+
+
+    <section>
+        <div class="container-2xl max-w-[1700px] h-auto mx-auto">
+            <div class="px-4 xl:px-32 2xl:px-64 my-10 sm:my-20 md:my-32">
+                <div class="grid md:grid-cols-3 grid-cols-2 text-md sm:text-lg">
+                    <div class="flex items-center gap-3 my-3">
+                        <i class="fa-regular fa-circle-dot text-[#ed2224]"></i>
+                        <p class="text-[#5F5454]">Es6 Consept</p>
+                    </div>
+                    <div class="flex items-center gap-3 my-3">
+                        <i class="fa-regular fa-circle-dot text-[#ed2224]"></i>
+                        <p class="text-[#5F5454]">Setting Invironment</p>
+                    </div>
+                    <div class="flex items-center gap-3 my-3">
+                        <i class="fa-regular fa-circle-dot text-[#ed2224]"></i>
+                        <p class="text-[#5F5454]">Database interfacing with Node Js</p>
+                    </div>
+                    <div class="flex items-center gap-3 my-3">
+                        <i class="fa-regular fa-circle-dot text-[#ed2224]"></i>
+                        <p class="text-[#5F5454]">MySQL & MongoDB</p>
+                    </div>
+                    <div class="flex items-center gap-3 my-3">
+                        <i class="fa-regular fa-circle-dot text-[#ed2224]"></i>
+                        <p class="text-[#5F5454]">Create Database Collections</p>
+                    </div>
+                    <div class="flex items-center gap-3 my-3">
+                        <i class="fa-regular fa-circle-dot text-[#ed2224]"></i>
+                        <p class="text-[#5F5454]">Create Database</p>
+                    </div>
+                    <div class="flex items-center gap-3 my-3">
+                        <i class="fa-regular fa-circle-dot text-[#ed2224]"></i>
+                        <p class="text-[#5F5454]">RestAPIs</p>
+                    </div>
+                    <div class="flex items-center gap-3 my-3">
+                        <i class="fa-regular fa-circle-dot text-[#ed2224]"></i>
+                        <p class="text-[#5F5454]">Mongoose</p>
+                    </div>
+                    <div class="flex items-center gap-3 my-3">
+                        <i class="fa-regular fa-circle-dot text-[#ed2224]"></i>
+                        <p class="text-[#5F5454]">Create Tables</p>
+                    </div>
+                    <div class="flex items-center gap-3 my-3">
+                        <i class="fa-regular fa-circle-dot text-[#ed2224]"></i>
+                        <p class="text-[#5F5454]">ExpressJs</p>
+                    </div>
+                    <div class="flex items-center gap-3 my-3">
+                        <i class="fa-regular fa-circle-dot text-[#ed2224]"></i>
+                        <p class="text-[#5F5454]">Own Custom Validation</p>
+                    </div>
+                    <div class="flex items-center gap-3 my-3">
+                        <i class="fa-regular fa-circle-dot text-[#ed2224]"></i>
+                        <p class="text-[#5F5454]">PHP Fundamentals</p>
+                    </div>
+                    <div class="flex items-center gap-3 my-3">
+                        <i class="fa-regular fa-circle-dot text-[#ed2224]"></i>
+                        <p class="text-[#5F5454]">JWT</p>
+                    </div>
+                    <div class="flex items-center gap-3 my-3">
+                        <i class="fa-regular fa-circle-dot text-[#ed2224]"></i>
+                        <p class="text-[#5F5454]">NPM Validation Packege</p>
+                    </div>
+                    <div class="flex items-center gap-3 my-3">
+                        <i class="fa-regular fa-circle-dot text-[#ed2224]"></i>
+                        <p class="text-[#5F5454]">Validation</p>
+                    </div>
+                    <div class="flex items-center gap-3 my-3">
+                        <i class="fa-regular fa-circle-dot text-[#ed2224]"></i>
+                        <p class="text-[#5F5454]">Soket.io</p>
+                    </div>
+                    <div class="flex items-center gap-3 my-3">
+                        <i class="fa-regular fa-circle-dot text-[#ed2224]"></i>
+                        <p class="text-[#5F5454]">Many More</p>
+                    </div>
+                    <div class="flex items-center gap-3 my-3">
+                        <i class="fa-regular fa-circle-dot text-[#ed2224]"></i>
+                        <p class="text-[#5F5454]">Union</p>
+                    </div>
+                    <div class="flex items-center gap-3 my-3">
+                        <i class="fa-regular fa-circle-dot text-[#ed2224]"></i>
+                        <p class="text-[#5F5454]">Git Management</p>
+                    </div>
+                    <div class="flex items-center gap-3 my-3">
+                        <i class="fa-regular fa-circle-dot text-[#ed2224]"></i>
+                        <p class="text-[#5F5454]">Express Routers</p>
+                    </div>
+                    <div class="flex items-center gap-3 my-3">
+                        <i class="fa-regular fa-circle-dot text-[#ed2224]"></i>
+                        <p class="text-[#5F5454]">Normalization</p>
+                    </div>
+                    <div class="flex items-center gap-3 my-3">
+                        <i class="fa-regular fa-circle-dot text-[#ed2224]"></i>
+                        <p class="text-[#5F5454]">Server Setup & Hosting</p>
+                    </div>
+                    <div class="flex items-center gap-3 my-3">
+                        <i class="fa-regular fa-circle-dot text-[#ed2224]"></i>
+                        <p class="text-[#5F5454]">Express Middlewares</p>
+                    </div>
+                    <div class="flex items-center gap-3 my-3">
+                        <i class="fa-regular fa-circle-dot text-[#ed2224]"></i>
+                        <p class="text-[#5F5454]">Alter</p>
+                    </div>
+                    <div class="flex items-center gap-3 my-3">
+                        <i class="fa-regular fa-circle-dot text-[#ed2224]"></i>
+                        <p class="text-[#5F5454]">2 Projects</p>
+                    </div>
+                    <div class="flex items-center gap-3 my-3">
+                        <i class="fa-regular fa-circle-dot text-[#ed2224]"></i>
+                        <p class="text-[#5F5454]">Express File Uploads</p>
+                    </div>
+                    <div class="flex items-center gap-3 my-3">
+                        <i class="fa-regular fa-circle-dot text-[#ed2224]"></i>
+                        <p class="text-[#5F5454]">Many More...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!------------------------------------------------------------------->
+    <!--                   SECTION 4 ==> Our Project                   -->
+    <!------------------------------------------------------------------->
+
+
+    <section>
+        <div class="container-2xl max-w-[1700px] h-auto mx-auto">
+            <div class="px-4 xl:px-32 2xl:px-64 my-10 sm:my-20 md:my-32 text-[#242424]">
+                <h3 class="text-xl sm:text-3xl font-normal text-black">Our Projects</h3>
+                <h2 class="text-2xl sm:text-4xl font-bold mt-2">Look at Glance work <br> From Students</h2>
+
+                <div class="w-full h-6 py-5 flex justify-between items-center mt-20 text-lg ms:text-xl sm:text-2xl rounded-md" id="box">
+                    <p class="font-normal">Logo & Branding</p>
+                    <div class="hidden" id="books">
+                        <img src="../../Asset/books.png" alt="" class="w-24 ms:w-32 sm:w-44">
+                    </div>
+                    <div class="cursor-pointer" onclick="show()">
+                        <i class="fa-solid fa-arrow-right rounded-full p-1" id="arrow"></i>
+                    </div>
+                </div>
+
+                <div class="w-full h-6 py-5 flex justify-between items-center mt-7 text-lg ms:ext-xl sm:text-2xl rounded-md" id="box1">
+                    <p class="font-normal">Mobile App Design</p>
+                    <div class="hidden" id="books1">
+                        <img src="../../Asset/books.png" alt="" class="w-24 ms:w-32 sm:w-44">
+                    </div>
+                    <div class="cursor-pointer" onclick="show1()">
+                        <i class="fa-solid fa-arrow-right rounded-full p-1" id="arrow1"></i>
+                    </div>
+                </div>
+
+                <div class="w-full h-6 py-5 flex justify-between items-center mt-7 text-lg ms:ext-xl sm:text-2xl rounded-md" id="box2">
+                    <p class="font-normal">Web Design</p>
+                    <div class="hidden" id="books2">
+                        <img src="../../Asset/books.png" alt="" class="w-24 ms:w-32 sm:w-44">
+                    </div>
+                    <div class="cursor-pointer" onclick="show2()">
+                        <i class="fa-solid fa-arrow-right rounded-full p-1" id="arrow2"></i>
+                    </div>
+                </div>
+
+                <div class="w-full h-6 py-5 flex justify-between items-center mt-7 text-lg ms:ext-xl sm:text-2xl rounded-md" id="box3">
+                    <p class="font-normal">Photoshop</p>
+                    <div class="hidden" id="books3">
+                        <img src="../../Asset/books.png" alt="" class="w-24 ms:w-32 sm:w-44">
+                    </div>
+                    <div class="cursor-pointer" onclick="show3()">
+                        <i class="fa-solid fa-arrow-right rounded-full p-1" id="arrow3"></i>
+                    </div>
+                </div>
+
+                <div class="w-full h-6 py-5 flex justify-between items-center mt-7 text-lg ms:ext-xl sm:text-2xl rounded-md" id="box4">
+                    <p class="font-normal">illustration</p>
+                    <div class="hidden" id="books4">
+                        <img src="../../Asset/books.png" alt="" class="w-24 ms:w-32 sm:w-44">
+                    </div>
+                    <div class="cursor-pointer" onclick="show4()">
+                        <i class="fa-solid fa-arrow-right rounded-full p-1" id="arrow4"></i>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+
+    <!------------------------------------------------------------------->
+    <!--                SECTION 5 ==> Success Student                  -->
+    <!------------------------------------------------------------------->
+
+
+
+    <section id="placement">
+        <div class="container-2xl w-full mx-auto h-auto" id="">
+            <div class="mx-auto px-4 xl:px-32 2xl:px-64 my-10 sm:my-10 md:my-20">
+                <h2 class='text-2xl sm:text-4xl font-bold'><span class=''> Our <p class="text-[#ed2224] inline">
+                            Successful</p>
+                    </span> Student</h2>
+            </div>
+
+            <div class="student1 my-3 sm:my-10 md:my-20 w-full mx-auto">
+                <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides">
+
+                        <li class="glide__slide">
+                            <div
+                                class="w-40 sm:w-48 lg:w-64 h-64 sm:h-[270px] lg:h-80 text-center bg-red-100 py-3 lg:py-5 rounded-3xl">
+                                <h3 class="font-semibold">Abhay Jadav</h3>
+                                <h3 class="text-[#ed2224]">Nodejs Developer</h3>
+                                <div
+                                    class="w-28 sm:w-32 lg:w-40 h-28 sm:h-32 lg:h-40 mt-5 rounded-full bg-white mx-auto overflow-hidden">
+                                    <img src="../../Asset/Abhay Jadav-1 (1) 1.png" alt="" class="mx-auto bg-cover">
+                                </div>
+                                <div class="flex justify-end">
+                                    <img src="../../Asset/circle.jpg" class="mr-3 h-10 md:h-12 lg:h-16" alt="">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="glide__slide">
+                            <div
+                                class="w-40 sm:w-48 lg:w-64 h-64 sm:h-[270px] lg:h-80 text-center bg-red-100 py-3 lg:py-5 rounded-3xl">
+                                <h3 class="font-semibold">Druvik Vaghasiya</h3>
+                                <h3 class="text-[#ed2224]">Nodejs Developer</h3>
+                                <div
+                                    class="w-28 sm:w-32 lg:w-40 h-28 sm:h-32 lg:h-40 mt-5 rounded-full bg-white mx-auto overflow-hidden">
+                                    <img src="../../Asset/DHRUVIK VGHASIYA 1.png" alt="" class="mx-auto">
+                                </div>
+                                <div class="flex justify-end">
+                                    <img src="../../Asset/ns.jpg" class="mr-3 h-10 md:h-12 lg:h-16" alt="">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="glide__slide">
+                            <div
+                                class="w-40 sm:w-48 lg:w-64 h-64 sm:h-[270px] lg:h-80 text-center bg-red-100 py-3 lg:py-5 rounded-3xl">
+                                <h3 class="font-semibold">Nikunj Ramani</h3>
+                                <h3 class="text-[#ed2224]">Nodejs Developer</h3>
+                                <div
+                                    class="w-28 sm:w-32 lg:w-40 h-28 sm:h-32 lg:h-40 mt-5 rounded-full bg-white mx-auto overflow-hidden relative">
+                                    <div class="flex justify-center">
+                                        <img src="../../Asset/Nikunj Ramani (1) 1.png" alt=""
+                                            class="mx-auto absolute bottom-0">
+                                    </div>
+                                </div>
+                                <div class="flex justify-end">
+                                    <img src="../../Asset/artoon.jpg" class="mr-3 w-20 md:w-24 lg:w-auto" alt="">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="glide__slide">
+                            <div
+                                class="w-40 sm:w-48 lg:w-64 h-64 sm:h-[270px] lg:h-80 text-center bg-red-100 py-3 lg:py-5 rounded-3xl">
+                                <h3 class="font-semibold">Yash Mangukiya</h3>
+                                <h3 class="text-[#ed2224]">Nodejs Developer</h3>
+                                <div
+                                    class="w-28 sm:w-32 lg:w-40 h-28 sm:h-32 lg:h-40 mt-5 rounded-full bg-white mx-auto overflow-hidden">
+                                    <img src="../../Asset/yash mangukiya 1.png" alt="" class="mx-auto">
+                                </div>
+                                <div class="flex justify-end">
+                                    <img src="../../Asset/artoon.jpg" class="mr-3 w-20 md:w-24 lg:w-auto" alt="">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="glide__slide">
+                            <div
+                                class="w-40 sm:w-48 lg:w-64 h-64 sm:h-[270px] lg:h-80 text-center bg-red-100 py-3 lg:py-5 rounded-3xl">
+                                <h3 class="font-semibold">Vishal Gondaliya</h3>
+                                <h3 class="text-[#ed2224]">UI/UX Design</h3>
+                                <div
+                                    class="w-28 sm:w-32 lg:w-40 h-28 sm:h-32 lg:h-40 mt-5 rounded-full bg-white mx-auto overflow-hidden relative">
+                                    <div class="flex justify-center">
+                                        <img src="../../Asset/Vishal Gondaliya 1.png" alt=""
+                                            class="mx-auto absolute bottom-0">
+                                    </div>
+                                </div>
+                                <div class="flex justify-end">
+                                    <img src="../../Asset/dj.jpg" class="mr-3 w-20 md:w-24 lg:w-auto" alt="">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="glide__slide">
+                            <div
+                                class="w-40 sm:w-48 lg:w-64 h-64 sm:h-[270px] lg:h-80 text-center bg-red-100 py-3 lg:py-5 rounded-3xl">
+                                <h3 class="font-semibold">Rinkal Ravipara</h3>
+                                <h3 class="text-[#ed2224]">UI/UX Design</h3>
+                                <div
+                                    class="w-28 sm:w-32 lg:w-40 h-28 sm:h-32 lg:h-40 mt-5 rounded-full bg-white mx-auto overflow-hidden">
+                                    <img src="../../Asset/Rinkal ravipara (UIUX) 1.png" alt="" class="mx-auto">
+                                </div>
+                                <div class="flex justify-end">
+                                    <img src="../../Asset/keylogic.jpg"
+                                        class="mr-3 w-20 md:w-24 lg:w-auto h-10 md:h-12 lg:h-16" alt="">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="glide__slide">
+                            <div
+                                class="w-40 sm:w-48 lg:w-64 h-64 sm:h-[270px] lg:h-80 text-center bg-red-100 py-3 lg:py-5 rounded-3xl">
+                                <h3 class="font-semibold">Chirag Sarvaiya</h3>
+                                <h3 class="text-[#ed2224]">UI/UX Design</h3>
+                                <div
+                                    class="w-28 sm:w-32 lg:w-40 h-28 sm:h-32 lg:h-40 mt-5 rounded-full bg-white mx-auto overflow-hidden relative">
+                                    <div class="flex justify-center">
+                                        <img src="../../Asset/chirag.png" alt=""
+                                            class="mx-auto absolute -bottom-5 sm:bottom-0">
+                                    </div>
+                                </div>
+                                <div class="flex justify-end">
+                                    <img src="../../Asset/Dreamvision Infotech 1.jpg" class="mr-3 h-10 md:h-12 lg:h-16"
+                                        alt="">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="glide__slide">
+                            <div
+                                class="w-40 sm:w-48 lg:w-64 h-64 sm:h-[270px] lg:h-80 text-center bg-red-100 py-3 lg:py-5 rounded-3xl">
+                                <h3 class="font-semibold">Yash Mangukiya</h3>
+                                <h3 class="text-[#ed2224]">Nodejs Developer</h3>
+                                <div
+                                    class="w-28 sm:w-32 lg:w-40 h-28 sm:h-32 lg:h-40 mt-5 rounded-full bg-white mx-auto overflow-hidden relative">
+                                    <div class="flex justify-center">
+                                        <img src="../../Asset/yash.png" alt="" class="mx-auto absolute bottom-0">
+                                    </div>
+                                </div>
+                                <div class="flex justify-end">
+                                    <img src="../../Asset/Implies solution.jpg" class="mr-3 h-10 md:h-12 lg:h-16"
+                                        alt="">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="glide__slide">
+                            <div
+                                class="w-40 sm:w-48 lg:w-64 h-64 sm:h-[270px] lg:h-80 text-center bg-red-100 py-3 lg:py-5 rounded-3xl">
+                                <h3 class="font-semibold">Hardi kotadiya</h3>
+                                <h3 class="text-[#ed2224]">UI/UX Design</h3>
+                                <div
+                                    class="w-28 sm:w-32 lg:w-40 h-28 sm:h-32 lg:h-40 mt-5 rounded-full bg-white mx-auto overflow-hidden relative">
+                                    <div class="flex justify-center">
+                                        <img src="../../Asset/hardi.png" alt="" class="mx-auto absolute bottom-0">
+                                    </div>
+                                </div>
+                                <div class="flex justify-end">
+                                    <img src="../../Asset/Dreamvision Infotech 1.jpg" class="mr-3 h-10 md:h-12 lg:h-16"
+                                        alt="">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="glide__slide">
+                            <div
+                                class="w-40 sm:w-48 lg:w-64 h-64 sm:h-[270px] lg:h-80 text-center bg-red-100 py-3 lg:py-5 rounded-3xl">
+                                <h3 class="font-semibold">Priyanshi guna</h3>
+                                <h3 class="text-[#ed2224]">UI/UX Design</h3>
+                                <div
+                                    class="w-28 sm:w-32 lg:w-40 h-28 sm:h-32 lg:h-40 mt-5 rounded-full bg-white mx-auto overflow-hidden relative">
+                                    <div class="flex justify-center">
+                                        <img src="../../Asset/priyanshi.png" alt="" class="mx-auto absolute bottom-0">
+                                    </div>
+                                </div>
+                                <div class="flex justify-end">
+                                    <img src="../../Asset/Dreamvision Infotech 1.jpg" class="mr-3 h-10 md:h-12 lg:h-16"
+                                        alt="">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="glide__slide">
+                            <div
+                                class="w-40 sm:w-48 lg:w-64 h-64 sm:h-[270px] lg:h-80 text-center bg-red-100 py-3 lg:py-5 rounded-3xl">
+                                <h3 class="font-semibold">Keval Satani</h3>
+                                <h3 class="text-[#ed2224]">UI/UX Design</h3>
+                                <div
+                                    class="w-28 sm:w-32 lg:w-40 h-28 sm:h-32 lg:h-40 mt-5 rounded-full bg-white mx-auto overflow-hidden relative">
+                                    <div class="flex justify-center">
+                                        <img src="../../Asset/Keval Satani 2.png" alt=""
+                                            class="mx-auto absolute bottom-0">
+                                    </div>
+                                </div>
+                                <div class="flex justify-end">
+                                    <img src="../../Asset/artoon.jpg" class="mr-3 w-20 md:w-24 lg:w-auto" alt="">
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+
+
+
+            <div class="student2 mt-0 md:-mt-14 w-full mx-auto mb-3 sm:mb-10 md:mb-20">
+                <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides">
+
+                        <li class="glide__slide">
+                            <div
+                                class="w-40 sm:w-48 lg:w-64 h-64 sm:h-[270px] lg:h-80 text-center bg-red-100 py-3 lg:py-5 rounded-3xl">
+                                <h3 class="font-semibold">Parth Chovatiya</h3>
+                                <h3 class="text-[#ed2224]">Flutter Developer</h3>
+                                <div
+                                    class="w-28 sm:w-32 lg:w-40 h-28 sm:h-32 lg:h-40 mt-5 rounded-full bg-white mx-auto overflow-hidden relative">
+                                    <div class="flex justify-center">
+                                        <img src="../../Asset/Parth Chovatiya 2 1.png" alt=""
+                                            class="mx-auto absolute bottom-0">
+                                    </div>
+                                </div>
+                                <div class="flex">
+                                    <img src="../../Asset/c.jpg" class="mr-3 h-10 md:h-12 lg:h-16" alt="">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="glide__slide">
+                            <div
+                                class="w-40 sm:w-48 lg:w-64 h-64 sm:h-[270px] lg:h-80 text-center bg-red-100 py-3 lg:py-5 rounded-3xl">
+                                <h3 class="font-semibold">Meet Lunagariya</h3>
+                                <h3 class="text-[#ed2224]">Flutter Developer</h3>
+                                <div
+                                    class="w-28 sm:w-32 lg:w-40 h-28 sm:h-32 lg:h-40 mt-5 rounded-full bg-white mx-auto overflow-hidden relative">
+                                    <div class="flex justify-center">
+                                        <img src="../../Asset/meet lunagariya 1.png" alt=""
+                                            class="mx-auto absolute bottom-0">
+                                    </div>
+                                </div>
+                                <div class="flex">
+                                    <img src="../../Asset/growder_technovations_private_limited_logo.jpg"
+                                        class="mr-3 h-10 md:h-12 lg:h-16" alt="">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="glide__slide">
+                            <div
+                                class="w-40 sm:w-48 lg:w-64 h-64 sm:h-[270px] lg:h-80 text-center bg-red-100 py-3 lg:py-5 rounded-3xl">
+                                <h3 class="font-semibold">Kartik Desai</h3>
+                                <h3 class="text-[#ed2224]">Nodejs Developer</h3>
+                                <div
+                                    class="w-28 sm:w-32 lg:w-40 h-28 sm:h-32 lg:h-40 mt-5 rounded-full bg-white mx-auto overflow-hidden relative">
+                                    <div class="flex justify-center">
+                                        <img src="../../Asset/kartik desai 1.png" alt=""
+                                            class="mx-auto absolute -bottom-7 sm:bottom-0 bg-cover">
+                                    </div>
+                                </div>
+                                <div class="flex">
+                                    <img src="../../Asset/artoon.jpg" class="mr-3 w-20 md:w-24 lg:w-auto" alt="">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="glide__slide">
+                            <div
+                                class="w-40 sm:w-48 lg:w-64 h-64 sm:h-[270px] lg:h-80 text-center bg-red-100 py-3 lg:py-5 rounded-3xl">
+                                <h3 class="font-semibold">Mitul Thummar</h3>
+                                <h3 class="text-[#ed2224]">Nodejs Developer</h3>
+                                <div
+                                    class="w-28 sm:w-32 lg:w-40 h-28 sm:h-32 lg:h-40 mt-5 rounded-full bg-white mx-auto overflow-hidden relative">
+                                    <div class="flex justify-center">
+                                        <img src="../../Asset/MITUL THUMMER  1.png" alt=""
+                                            class="mx-auto absolute -bottom-7 sm:bottom-0">
+                                    </div>
+                                </div>
+                                <div class="flex">
+                                    <img src="../../Asset/circle.jpg" class="mr-3 h-10 md:h-12 lg:h-16" alt="">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="glide__slide">
+                            <div
+                                class="w-40 sm:w-48 lg:w-64 h-64 sm:h-[270px] lg:h-80 text-center bg-red-100 py-3 lg:py-5 rounded-3xl">
+                                <h3 class="font-semibold">Kenil Bhalala</h3>
+                                <h3 class="text-[#ed2224]">Reactjs Developer</h3>
+                                <div
+                                    class="w-28 sm:w-32 lg:w-40 h-28 sm:h-32 lg:h-40 mt-5 rounded-full bg-white mx-auto overflow-hidden relative">
+                                    <div class="flex justify-center">
+                                        <img src="../../Asset/kenil bhalala 1.png" alt=""
+                                            class="mx-auto absolute bottom-0">
+                                    </div>
+                                </div>
+                                <div class="flex">
+                                    <img src="../../Asset/ath.jpg" class="mr-3 h-10 md:h-12 lg:h-16" alt="">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="glide__slide">
+                            <div
+                                class="w-40 sm:w-48 lg:w-64 h-64 sm:h-[270px] lg:h-80 text-center bg-red-100 py-3 lg:py-5 rounded-3xl">
+                                <h3 class="font-semibold">Harshil Dhaduk</h3>
+                                <h3 class="text-[#ed2224]">Reactjs Developer</h3>
+                                <div
+                                    class="w-28 sm:w-32 lg:w-40 h-28 sm:h-32 lg:h-40 mt-5 rounded-full bg-white mx-auto overflow-hidden relative">
+                                    <div class="flex justify-center">
+                                        <img src="../../Asset/HARSHIL DHADUK 1.png" alt=""
+                                            class="mx-auto absolute -bottom-7 sm:bottom-0">
+                                    </div>
+                                </div>
+                                <div class="flex">
+                                    <img src="../../Asset/micra_solution_logo.jpg" class="mr-3 h-10 md:h-12 lg:h-16"
+                                        alt="">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="glide__slide">
+                            <div
+                                class="w-40 sm:w-48 lg:w-64 h-64 sm:h-[270px] lg:h-80 text-center bg-red-100 py-3 lg:py-5 rounded-3xl">
+                                <h3 class="font-semibold">Jigar Chovatiya</h3>
+                                <h3 class="text-[#ed2224]">Flutter Developer</h3>
+                                <div
+                                    class="w-28 sm:w-32 lg:w-40 h-28 sm:h-32 lg:h-40 mt-5 rounded-full bg-white mx-auto overflow-hidden relative">
+                                    <div class="flex justify-center">
+                                        <img src="../../Asset/Jigar Chovatiya 1.png" alt=""
+                                            class="mx-auto absolute bottom-0">
+                                    </div>
+                                </div>
+                                <div class="flex">
+                                    <img src="../../Asset/unik.jpg" class="mr-3 h-10 md:h-12 lg:h-16" alt="">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="glide__slide">
+                            <div
+                                class="w-40 sm:w-48 lg:w-64 h-64 sm:h-[270px] lg:h-80 text-center bg-red-100 py-3 lg:py-5 rounded-3xl">
+                                <h3 class="font-semibold">Niraj Pethani</h3>
+                                <h3 class="text-[#ed2224]">web Design</h3>
+                                <div
+                                    class="w-28 sm:w-32 lg:w-40 h-28 sm:h-32 lg:h-40 mt-5 rounded-full bg-white mx-auto overflow-hidden relative">
+                                    <div class="flex justify-center">
+                                        <img src="../../Asset/niraj pethani 1.png" alt=""
+                                            class="mx-auto absolute bottom-0">
+                                    </div>
+                                </div>
+                                <div class="flex">
+                                    <img src="../../Asset/ns.jpg" class="mr-3  w-20 md:w-24 lg:w-auto" alt="">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="glide__slide">
+                            <div
+                                class="w-40 sm:w-48 lg:w-64 h-64 sm:h-[270px] lg:h-80 text-center bg-red-100 py-3 lg:py-5 rounded-3xl">
+                                <h3 class="font-semibold">Arti Jani</h3>
+                                <h3 class="text-[#ed2224]">UI/UX Design</h3>
+                                <div
+                                    class="w-28 sm:w-32 lg:w-40 h-28 sm:h-32 lg:h-40 mt-5 rounded-full bg-white mx-auto overflow-hidden relative">
+                                    <div class="flex justify-center">
+                                        <img src="../../Asset/Arti Jani 1.png" alt="" class="mx-auto absolute bottom-0">
+                                    </div>
+                                </div>
+                                <div class="flex">
+                                    <img src="../../Asset/mebmint.jpg" class="mr-3 h-10 md:h-12 lg:h-16" alt="">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="glide__slide">
+                            <div
+                                class="w-40 sm:w-48 lg:w-64 h-64 sm:h-[270px] lg:h-80 text-center bg-red-100 py-3 lg:py-5 rounded-3xl">
+                                <h3 class="font-semibold">Nemini Padsala</h3>
+                                <h3 class="text-[#ed2224]">UI/UX Design</h3>
+                                <div
+                                    class="w-28 sm:w-32 lg:w-40 h-28 sm:h-32 lg:h-40 mt-5 rounded-full bg-white mx-auto overflow-hidden relative">
+                                    <div class="flex justify-center">
+                                        <img src="../../Asset/nemini padsala 1.png" alt=""
+                                            class="mx-auto absolute bottom-0">
+                                    </div>
+                                </div>
+                                <div class="flex">
+                                    <img src="../../Asset/7.jpg" class="mr-3 h-10 md:h-12 lg:h-16" alt="">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="glide__slide">
+                            <div
+                                class="w-40 sm:w-48 lg:w-64 h-64 sm:h-[270px] lg:h-80 text-center bg-red-100 py-3 lg:py-5 rounded-3xl">
+                                <h3 class="font-semibold">Deep Sojitra</h3>
+                                <h3 class="text-[#ed2224]">Python Developer</h3>
+                                <div
+                                    class="w-28 sm:w-32 lg:w-40 h-28 sm:h-32 lg:h-40 mt-5 rounded-full bg-white mx-auto overflow-hidden relative">
+                                    <div class="flex justify-center">
+                                        <img src="../../Asset/Deep Sojitra (1) 2.png" alt=""
+                                            class="mx-auto absolute bottom-0">
+                                    </div>
+                                </div>
+                                <div class="flex">
+                                    <img src="../../Asset/ns.jpg" class="mr-3 h-10 md:h-12 lg:h-16" alt="">
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!------------------------------------------------------------------->
+    <!--                SECTION 6 ==> Student Review                 -->
+    <!------------------------------------------------------------------->
+
+
+
+  <section>
+    <div class='container-2xl max-w-[1700px] mx-auto h-auto md:px-8'>
+      <div class='mx-auto px-4 xl:px-32 2xl:px-64 my-10 sm:my-24 md:my-20'>
+        <h2 class='text-2xl sm:text-4xl font-bold -mt-3 sm:mt-0'><span class=''>Students</span> Review</h2>
+
+
+        <div class="wrapper my-16 pb-16">
+          <div class="center-slider">
+            <div>
+              <div
+                class="w-96 xs:w-80 ms:w-full sm:w-full md:w-auto h-auto bg-red-100 py-3 lg:py-7 p-1 xs:p-2 lg:p-5 rounded-xl sm:rounded-3xl">
+                <div class="flex sm:gap-2 text-[12px] ms:text-[14px] md:text-lg lg:text-2xl text-[#ed2224]">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+
+                <p class="mt-7 sm:mt-12 text-start text-[14px] sm:text-[10px] lg:text-base">Lorem
+                  ipsum, dolor sit amet consectetur adipisicing elit. Veritatis quia
+                  eaque beatae
+                  sunt laboriosam ullam, magni quasi quaerat iure ut odio perferendis officia debitis eveniet
+                  dignissimos, quis laudantium hic cupiditate harum! Omnis error ipsum placeat nobis illum amet</p>
+
+                <div class="flex items-center gap-2 md:gap-3 mt-3 sm:mt-7">
+                  <div class="w-12 h-12 bg-red-300 rounded-full">
+                    <img src="../../Asset/review.png" alt="" class="rounded-full object-cover w-12 h-12">
+                  </div>
+                  <h1 class="text-[20px] sm:text-lg md:text-xl lg:text-2xl">Person Name</h1>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div
+                class="w-96 xs:w-80 ms:w-full sm:w-full md:w-auto h-auto bg-red-100 py-3 lg:py-7 p-1 xs:p-2 lg:p-5 rounded-xl sm:rounded-3xl">
+                <div class="flex sm:gap-2 text-[12px] ms:text-[14px] md:text-lg lg:text-2xl text-[#ed2224]">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+
+                <p class="mt-7 sm:mt-12 text-start text-[14px] sm:text-[10px] lg:text-base">Lorem
+                  ipsum, dolor sit amet consectetur adipisicing elit. Veritatis quia
+                  eaque beatae
+                  sunt laboriosam ullam, magni quasi quaerat iure ut odio perferendis officia debitis eveniet
+                  dignissimos, quis laudantium hic cupiditate harum! Omnis error ipsum placeat nobis illum amet</p>
+
+                <div class="flex items-center gap-2 md:gap-3 mt-3 sm:mt-7">
+                  <div class="w-12 h-12 bg-red-300 rounded-full">
+                    <img src="../../Asset/review2.png" alt="" class="rounded-full object-cover w-12 h-12">
+                  </div>
+                  <h1 class="text-[20px] sm:text-lg md:text-xl lg:text-2xl">Person Name</h1>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div
+                class="w-96 xs:w-80 ms:w-full sm:w-full md:w-auto h-auto bg-red-100 py-3 lg:py-7 p-1 xs:p-2 lg:p-5 rounded-xl sm:rounded-3xl">
+                <div class="flex sm:gap-2 text-[12px] ms:text-[14px] md:text-lg lg:text-2xl text-[#ed2224]">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+
+                <p class="mt-7 sm:mt-12 text-start text-[14px] sm:text-[10px] lg:text-base">Lorem
+                  ipsum, dolor sit amet consectetur adipisicing elit. Veritatis quia
+                  eaque beatae
+                  sunt laboriosam ullam, magni quasi quaerat iure ut odio perferendis officia debitis eveniet
+                  dignissimos, quis laudantium hic cupiditate harum! Omnis error ipsum placeat nobis illum amet</p>
+
+                <div class="flex items-center gap-2 md:gap-3 mt-3 sm:mt-7">
+                  <div class="w-12 h-12 bg-red-300 rounded-full">
+                    <img src="../../Asset/review.png" alt="" class="rounded-full object-cover w-12 h-12">
+                  </div>
+                  <h1 class="text-[20px] sm:text-lg md:text-xl lg:text-2xl">Person Name</h1>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div
+                class="w-96 xs:w-80 ms:w-full sm:w-full md:w-auto h-auto bg-red-100 py-3 lg:py-7 p-1 xs:p-2 lg:p-5 rounded-xl sm:rounded-3xl">
+                <div class="flex sm:gap-2 text-[12px] ms:text-[14px] md:text-lg lg:text-2xl text-[#ed2224]">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+
+                <p class="mt-7 sm:mt-12 text-start text-[14px] sm:text-[10px] lg:text-base">Lorem
+                  ipsum, dolor sit amet consectetur adipisicing elit. Veritatis quia
+                  eaque beatae
+                  sunt laboriosam ullam, magni quasi quaerat iure ut odio perferendis officia debitis eveniet
+                  dignissimos, quis laudantium hic cupiditate harum! Omnis error ipsum placeat nobis illum amet</p>
+
+                <div class="flex items-center gap-2 md:gap-3 mt-3 sm:mt-7">
+                  <div class="w-12 h-12 bg-red-300 rounded-full">
+                    <img src="../../Asset/review2.png" alt="" class="rounded-full object-cover w-12 h-12">
+                  </div>
+                  <h1 class="text-[20px] sm:text-lg md:text-xl lg:text-2xl">Person Name</h1>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+    </div>
+
+
+    </div>
+    </div>
+
+  </section>
+
+
+    <!------------------------------------------------------------------->
+    <!--               SECTION 7 ==> Our Hiring Partner                -->
+    <!------------------------------------------------------------------->
+
+
+
+    <section class="bg-[#FAFAFA] pb-10 sm:pb-10 md:pb-20">
+        <div class="container-2xl max-w-[1700px] mx-auto h-auto md:px-8">
+            <div class="mx-auto px-4 xl:px-32 2xl:px-64 my-3 sm:my-10 md:my-20">
+                <div class="pt-10 sm:pt-10 md:pt-20">
+                    <h2 class='text-2xl sm:text-4xl font-bold'><span class=''>Our Hiring</span> Partner</h2>
+
+
+                    <div class="slick-wrapper mt-10">
+                        <div id="slick1">
+                            <div class="slide-item">
+                                <div class="p-logo ">
+                                    <img src="../../Asset/IT COMPANIES LOGO/alitainfotech_skillqode_partner.png"
+                                        alt="Image 1" class="max-w-full h-auto">
+                                </div>
+                            </div>
+                            <div class="slide-item">
+                                <div class="p-logo ">
+                                    <img src="../../Asset/IT COMPANIES LOGO/alphabetInfo_skillqode_partner.png"
+                                        alt="Image 1" class="max-w-full h-auto">
+                                </div>
+                            </div>
+                            <div class="slide-item">
+                                <div class="p-logo ">
+                                    <img src="../../Asset/IT COMPANIES LOGO/artoonsolution_skillqode_partner.png"
+                                        alt="Image 1" class="max-w-full h-auto">
+                                </div>
+                            </div>
+                            <div class="slide-item">
+                                <div class="p-logo ">
+                                    <img src="../../Asset/IT COMPANIES LOGO/atthtech_skillqode_partner.jpeg"
+                                        alt="Image 1" class="max-w-full h-auto">
+                                </div>
+                            </div>
+                            <div class="slide-item">
+                                <div class="p-logo ">
+                                    <img src="../../Asset/IT COMPANIES LOGO/coderkube techno_skillqode_partner.png"
+                                        alt="Image 1" class="max-w-full h-auto">
+                                </div>
+                            </div>
+                            <div class="slide-item">
+                                <div class="p-logo ">
+                                    <img src="../../Asset/IT COMPANIES LOGO/coderthemes_skillqode_partner.png"
+                                        alt="Image 1" class="max-w-full h-auto">
+                                </div>
+                            </div>
+                            <div class="slide-item">
+                                <div class="p-logo ">
+                                    <img src="../../Asset/IT COMPANIES LOGO/codezee_skillqode_partner.png" alt="Image 1"
+                                        class="max-w-full h-auto">
+                                </div>
+                            </div>
+                            <div class="slide-item">
+                                <div class="p-logo ">
+                                    <img src="../../Asset/IT COMPANIES LOGO/dotmagic_skillqode_partner.jpeg"
+                                        alt="Image 1" class="max-w-full h-auto">
+                                </div>
+                            </div>
+                            <div class="slide-item">
+                                <div class="p-logo ">
+                                    <img src="../../Asset/IT COMPANIES LOGO/download_skillqode_partner.png"
+                                        alt="Image 1" class="max-w-full h-auto">
+                                </div>
+                            </div>
+                            <div class="slide-item">
+                                <div class="p-logo ">
+                                    <img src="../../Asset/IT COMPANIES LOGO/images_skillqode_partner.jpeg" alt="Image 1"
+                                        class="max-w-full h-auto">
+                                </div>
+                            </div>
+                            <div class="slide-item">
+                                <div class="p-logo ">
+                                    <img src="../../Asset/IT COMPANIES LOGO/evenmore_skillqode_partner.png"
+                                        alt="Image 1" class="max-w-full h-auto">
+                                </div>
+                            </div>
+                            <div class="slide-item">
+                                <div class="p-logo ">
+                                    <img src="../../Asset/IT COMPANIES LOGO/impliessolution_skillqode_partner.png "
+                                        alt="Image 1" class="max-w-full h-auto">
+                                </div>
+                            </div>
+                            <div class="slide-item">
+                                <div class="p-logo ">
+                                    <img src="../../Asset/IT COMPANIES LOGO/itcodehelp_skillqode_partner.png"
+                                        alt="Image 1" class="max-w-full h-auto">
+                                </div>
+                            </div>
+
+                            <div class="slide-item">
+                                <div class="p-logo ">
+                                    <img src="../../Asset/IT COMPANIES LOGO/atthtech_skillqode_partner.jpeg"
+                                        alt="Image 1" class="max-w-full h-auto">
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!------------------------------------------------------------------->
+    <!--                     SECTION 8 ==> Questions                   -->
+    <!------------------------------------------------------------------->
+
+
+
+
+    <section>
+        <div class='container-2xl max-w-[1700px] mx-auto h-auto md:px-8'>
+            <div class='mx-auto px-4 xl:px-32 2xl:px-64 my-10 sm:my-20 md:my-32'>
+                <h2 class='text-2xl sm:text-4xl font-bold'><span class=''>Frequently Asked</span> Questions
+                </h2>
+
+                <div class="mt-5 sm:mt-16">
+                    <details class="group border border-black border-l-0 border-r-0 border-t-0 mt-8">
+                        <summary class="flex justify-between cursor-pointer">
+                            <span class='md:text-xl mb-5'>Which Student Can Apply for This Course ?</span>
+                            <span class="transition">
+                                <i
+                                    class="fa-solid fa-arrow-down rotate-45 group-open:rotate-0 group-open:text-[#ed2224]"></i>
+                            </span>
+                        </summary>
+                        <div class="group-open:animate-fadeIn">
+                            <p class='mt-2 mb-7 md:text-xl'>Aspirants from any stream (Science/ Commerce/ Arts) are
+                                eligible to apply
+                                for admission to Any IT course. On the other hand, to secure admission in a PG-level IT
+                                course,
+                                candidates should have completed their graduation from a recognised college/ institute
+                            </p>
+                        </div>
+                    </details>
+
+
+                    <details class="group border border-black border-l-0 border-r-0 border-t-0 mt-8">
+                        <summary class="flex justify-between items-center cursor-pointer">
+                            <span class='md:text-xl mb-5'>Which Student Can Apply for This Course ?</span>
+                            <span class="transition">
+                                <i
+                                    class="fa-solid fa-arrow-down rotate-45 group-open:rotate-0 group-open:text-[#ed2224]"></i>
+                            </span>
+                        </summary>
+                        <div class="group-open:animate-fadeIn">
+                            <p class='mt-2 mb-7 md:text-xl'>Aspirants from any stream (Science/ Commerce/ Arts) are
+                                eligible to apply
+                                for admission to Any IT course. On the other hand, to secure admission in a PG-level IT
+                                course,
+                                candidates should have completed their graduation from a recognised college/ institute
+                            </p>
+                        </div>
+                    </details>
+
+
+                    <details class="group border border-black border-l-0 border-r-0 border-t-0 mt-8">
+                        <summary class="flex justify-between items-center cursor-pointer">
+                            <span class='md:text-xl mb-5'>Which Student Can Apply for This Course ?</span>
+                            <span class="transition">
+                                <i
+                                    class="fa-solid fa-arrow-down rotate-45 group-open:rotate-0 group-open:text-[#ed2224]"></i>
+                            </span>
+                        </summary>
+                        <div class="group-open:animate-fadeIn">
+                            <p class='mt-2 mb-7 md:text-xl'>Aspirants from any stream (Science/ Commerce/ Arts) are
+                                eligible to apply
+                                for admission to Any IT course. On the other hand, to secure admission in a PG-level IT
+                                course,
+                                candidates should have completed their graduation from a recognised college/ institute
+                            </p>
+                        </div>
+                    </details>
+
+
+                    <details class="group border border-black border-l-0 border-r-0 border-t-0 mt-8">
+                        <summary class="flex justify-between items-center cursor-pointer">
+                            <span class='md:text-xl mb-5'>Which Student Can Apply for This Course ?</span>
+                            <span class="transition">
+                                <i
+                                    class="fa-solid fa-arrow-down rotate-45 group-open:rotate-0 group-open:text-[#ed2224]"></i>
+                            </span>
+                        </summary>
+                        <div class="group-open:animate-fadeIn">
+                            <p class='mt-2 mb-7 md:text-xl'>Aspirants from any stream (Science/ Commerce/ Arts) are
+                                eligible to apply
+                                for admission to Any IT course. On the other hand, to secure admission in a PG-level IT
+                                course,
+                                candidates should have completed their graduation from a recognised college/ institute
+                            </p>
+                        </div>
+                    </details>
+
+
+                    <details class="group border border-black border-l-0 border-r-0 border-t-0 mt-8" open>
+                        <summary class="flex justify-between items-center cursor-pointer">
+                            <span class='md:text-xl mb-5'>Which Student Can Apply for This Course ?</span>
+                            <span class="transition">
+                                <i
+                                    class="fa-solid fa-arrow-down rotate-45 group-open:rotate-0 group-open:text-[#ed2224]"></i>
+                            </span>
+                        </summary>
+                        <div class="group-open:animate-fadeIn">
+                            <p class='mt-2 mb-7 md:text-xl'>Aspirants from any stream (Science/ Commerce/ Arts) are
+                                eligible to apply
+                                for admission to Any IT course. On the other hand, to secure admission in a PG-level IT
+                                course,
+                                candidates should have completed their graduation from a recognised college/ institute
+                            </p>
+                        </div>
+                    </details>
+                </div>
+
+
+
+                <div class="w-full h-auto py-8 md:py-16 relative bg-[#ed2224] rounded-3xl mt-20">
+                    <h1 class="text-white text-center text-2xl md:text-4xl font-semibold">Have Any Other Query ? </h1>
+                    <div class="flex justify-center">
+                        <a href="https://skillqode.in/go-to-inquiry" target="_blank">
+                            <button
+                                class="bg-white border border-[#ed2224] text-[#ed2224] hover:text-white hover:bg-[#ed2224] hover:duration-300 hover:border-white px-5 py-2 rounded-xl mt-8 md:mt-16 font-bold">Enquire
+                                Now</button>
+                        </a>
+                    </div>
+                    <img src="../../Asset/person.png" alt=""
+                        class="h-28 sm:h-40 md:h-auto absolute bottom-0 right-3 sm:right-16">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!------------------------------------------------------------------->
+    <!--                          Fotter                               -->
+    <!------------------------------------------------------------------->
+
+
+
+
+
+    <div class='w-[100%] bg-[#ed2224] mt-10'>
+        <div
+            class='xs:m-auto xs:max-w-full px-4 sm:px-0 sm:max-w-[600px] md:max-w-[700px] lg:max-w-[950px] xl:max-w-[1200px] 2xl:max-w-[1500px]'>
+            <div class='grid xs:grid-cols-1 md:grid-cols-2'>
+                <div>
+                    <div class='py-10 pb-0'>
+                        <h1 class='text-2xl sm:text-3xl font-bold text-white'>Stay in the loop</h1>
+                        <p class='text-[16px] sm:text-[20px] font-[400px] mt-2 text-white'>We'll send you updates on
+                            discounts
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div class='py-10 pb-0'>
+                        <div class='flex gap-2 justify-between md:justify-end'>
+                            <button
+                                class='bg-black w-28 xs:w-36 sm:w-44 h-10 text-white hover:bg-white hover:text-black hover:duration-700 font-bold'>Enter
+                                your email</button>
+                            <button
+                                class='bg-white w-28 xs:w-36 sm:w-44 h-10 text-red-500 sm:ms-3 mt-0 hover:bg-black hover:text-white hover:duration-700 font-bold text-lg'>Sign
+                                Up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class='grid xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-6 my-20 sm:my-32 '>
+                <div class=''>
+                    <p class='text-[24px] text-white font-semibold'>Product</p>
+                    <div class='mt-5'>
+                        <a href='javascript:void(0)'>
+                            <p class='text-[18px] font-light w-0 text-white hover:text-black hover:duration-500'>
+                                Overview</p>
+                        </a>
+                        <a href='javascript:void(0)'>
+                            <p
+                                class='text-[18px] sm:text-[20px] font-light w-0 text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                                Features</p>
+                        </a>
+                        <a href='javascript:void(0)'>
+                            <p
+                                class='text-[18px] sm:text-[20px] font-light w-0 text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                                Pricing</p>
+                        </a>
+                        <div class='flex justify-between items-center'>
+                            <a href='javascript:void(0)'>
+                                <p
+                                    class='ttext-[18px] sm:ext-[20px]  font-lightw-0 text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                                    Releases</p>
+                            </a>
+                            <div class='bg-white px-4 py-1 mt-2 rounded-full md:me-5 lg:me-8 '>
+                                <p class='text-[16px] text-red-500 '>New</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class='flex justify-end sm:justify-end md:justify-center mt-0'>
+                    <div>
+                        <p class='text-[24px] text-white font-semibold'>Company</p>
+                        <div class='mt-5'>
+                            <a href='javascript:void(0)'>
+                                <p
+                                    class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500'>
+                                    About us
+                                </p>
+                            </a>
+                            <a href='javascript:void(0)'>
+                                <p
+                                    class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                                    News</p>
+                            </a>
+                            <a href='javascript:void(0)'>
+                                <p
+                                    class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                                    Media kit</p>
+                            </a>
+                            <a href='javascript:void(0)'>
+                                <p
+                                    class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                                    Contact</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class='flex sm:justify-end xs:justify-start xs:mt-[30px] sm:mt-0'>
+                    <div class="">
+                        <p class='text-[24px] text-white font-semibold'>Resources</p>
+                        <div class='mt-5'>
+                            <a href='javascript:void(0)'>
+                                <p
+                                    class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500'>
+                                    Blog
+                                </p>
+                            </a>
+                            <a href='javascript:void(0)'>
+                                <p
+                                    class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                                    Newsletter</p>
+                            </a>
+                            <a href='javascript:void(0)'>
+                                <p
+                                    class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                                    Help center</p>
+                            </a>
+                            <a href='javascript:void(0)'>
+                                <p
+                                    class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                                    Support</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class='flex justify-end sm:justify-start md:justify-start lg:justify-end sm:mt-5 md:mt-14 lg:mt-0 xs:mt-[30px]'>
+                    <div>
+                        <p class='text-[24px] text-white font-semibold'>Quick links</p>
+                        <div class='mt-5'>
+                            <a href='javascript:void(0)'>
+                                <p
+                                    class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500'>
+                                    Overview
+                                </p>
+                            </a>
+                            <a href='javascript:void(0)'>
+                                <p
+                                    class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                                    Sitemap</p>
+                            </a>
+                            <a href='javascript:void(0)'>
+                                <p
+                                    class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                                    Gift Caeds</p>
+                            </a>
+                            <a href='javascript:void(0)'>
+                                <p
+                                    class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                                    Orders</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class='flex lg:justify-end md:justify-center sm:justify-center sm:ms-14 md:ms-0 md:mt-14 lg:mt-0 sm:mt-5 xs:mt-[30px]'>
+                    <div>
+                        <p class='text-[24px] text-white font-semibold'>Social</p>
+                        <div class='mt-5'>
+                            <a href='https://twitter.com/skillqode_in/status/1455199395087994884' target="_blank">
+                                <p
+                                    class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500'>
+                                    Twitter
+                                </p>
+                            </a>
+                            <a href='https://www.instagram.com/skillqode.in/' target="_blank">
+                                <p
+                                    class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                                    Instagram</p>
+                            </a>
+                            <a href='https://www.facebook.com/skillqode.in/' target="_blank">
+                                <p
+                                    class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                                    Facbook</p>
+                            </a>
+                            <a href='https://in.linkedin.com/company/skillqode-in' target="_blank">
+                                <p
+                                    class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                                    Linked in</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class='flex justify-end sm:justify-start md:justify-end sm:ms-14 md:ms-0 md:mt-14 lg:mt-0 sm:mt-5 xs:mt-[30px] me-14 sm:me-0'>
+                    <div>
+                        <p class='text-[24px] text-white font-semibold me-0 md:me-[60px] lg:me-0'>Legal</p>
+                        <div class='mt-5'>
+                            <a href='javascript:void(0)'>
+                                <p
+                                    class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500'>
+                                    Terms
+                                </p>
+                            </a>
+                            <a href='javascript:void(0)'>
+                                <p
+                                    class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                                    Privacy</p>
+                            </a>
+                            <a href='javascript:void(0)'>
+                                <p
+                                    class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                                    Cookies</p>
+                            </a>
+                            <a href='javascript:void(0)'>
+                                <p
+                                    class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                                    Licences</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="mt-8">
+            <img src="../../Asset/White.svg" alt="" class="mt-2 m-auto h-[90px] sm:h-[130px]">
+            <div class="flex items-end sm:justify-center md:justify-center lg:justify-center xl:justify-end">
+                <div class="flex xs:mt-5 sm:mt-5 md:mt-5 lg:mt-5 xl:mt-[-60px]">
+                    <img src="../../Asset/copyright 1.png" alt="" class="me-3 w-[24.17px] h-[24.17px]">
+                    <p class="text-white mb-7">2023, Belle Foods. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="../index.js"></script>
+</body>
+
+</html>

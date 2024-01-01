@@ -53,50 +53,50 @@ $(window).scroll(function () {
   }
 });
 
-$(document).ready(function () {
-  $('a[href^="#"]').on("click", function (e) {
-    e.preventDefault();
-    var target = this.hash;
-    var $target = $(target);
-    var scroll;
-    if ($(window).scrollTop() == 0) {
-      scroll = $target.offset().top - 160;
-    } else {
-      scroll = $target.offset().top - 60;
-    }
-    $("html, body")
-      .stop()
-      .animate(
-        {
-          scrollTop: scroll,
-        },
-        500,
-        "swing",
-        function () {
-          // window.location.hash = target;
-        }
-      );
-  });
-});
+// $(document).ready(function () {
+//   $('a[href^="#"]').on("click", function (e) {
+//     e.preventDefault();
+//     var target = this.hash;
+//     var $target = $(target);
+//     var scroll;
+//     if ($(window).scrollTop() == 0) {
+//       scroll = $target.offset().top - 160;
+//     } else {
+//       scroll = $target.offset().top - 60;
+//     }
+//     $("html, body")
+//       .stop()
+//       .animate(
+//         {
+//           scrollTop: scroll,
+//         },
+//         500,
+//         "swing",
+//         function () {
+//           // window.location.hash = target;
+//         }
+//       );
+//   });
+// });
 
-$(window).on("scroll", function () {
-  var section = $("section"),
-    nav = $(".menu-center"),
-    nav_height = nav.outerHeight(),
-    cur_pos = $(this).scrollTop();
-  section.each(function () {
-    var top = $(this).offset().top - nav_height,
-      bottom = top + $(this).outerHeight();
+// $(window).on("scroll", function () {
+//   var section = $("section"),
+//     nav = $(".menu-center"),
+//     nav_height = nav.outerHeight(),
+//     cur_pos = $(this).scrollTop();
+//   section.each(function () {
+//     var top = $(this).offset().top - nav_height,
+//       bottom = top + $(this).outerHeight();
 
-    if (cur_pos >= top && cur_pos <= bottom) {
-      nav.find("li a").removeClass("active");
-      section.removeClass("active");
+//     if (cur_pos >= top && cur_pos <= bottom) {
+//       nav.find("li a").removeClass("active");
+//       section.removeClass("active");
 
-      // $(this).addClass('active');
-      nav.find('a[href="#' + $(this).attr("id") + '"]').addClass("active");
-    }
-  });
-});
+//       // $(this).addClass('active');
+//       nav.find('a[href="#' + $(this).attr("id") + '"]').addClass("active");
+//     }
+//   });
+// });
 
 // AOS.init();
 

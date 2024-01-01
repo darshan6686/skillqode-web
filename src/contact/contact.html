@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SkillQode</title>
+  <style>
+    .image{
+      background-image: url('../../Asset/contact/contact.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      /* height: 670px; */
+      width: 100%;
+    }
+  </style>
+  <link rel="icon" type="images/x-icon" href="https://skillqode.in/public/Frontassets/images/Skill-qode-favicon.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Space+Grotesk:wght@600&display=swap"
+    rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../../dist/output.css">
+  <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+  <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+
+
+</head>
+
+<body>
+
+  <!------------------------------------------------------------------->
+  <!--                            HEADER                             -->
+  <!------------------------------------------------------------------->
+
+
+  <header class="">
+    <div class="w-full h-auto flex items-center justify-end bg-[#ed2224] text-white py-1">
+      <div class="w-full lg:w-2/3 xl:w-1/2 text-[7px] sm:text-xs md:text-base">
+        <a href="javascript:void(0)" class="mx-2 sm:mx-2 font-medium">100% job placements</a>
+        <a href="javascript:void(0)" class="mx-2 sm:mx-2 font-medium">Lifetime Support</a>
+        <a href="javascript:void(0)" class="mx-2 sm:mx-2 font-medium">Expert Team</a>
+        <a href="javascript:void(0)" class="mx-2 sm:mx-2 font-medium">Contact</a>
+      </div>
+    </div>
+
+    <div class="container-2xl max-w-[1700px] mx-auto bg-white">
+      <div class="py-2 z-50 bg-white w-full nav-wrapper" id="navbar">
+        <nav class="container-2xl flex justify-between items-center px-0 xl:px-32 2xl:px-64 menu-center relative">
+          <div class="font-semibold cursor-pointer px-4" id="logoimg">
+            <img src='../../Asset/Color.svg' class="w-40 lg:w-56 h-auto" style="background-color: transparent;" />
+          </div>
+
+
+
+          <!-- Close Mobile Menu Button (Initially Hidden) -->
+
+          <!-- <button id="closemenu" class="hidden md:hidden text-2xl z-50 absolute top-3 right-5 text-white">
+            <i class="fa-solid fa-xmark"></i>
+          </button> -->
+
+
+
+          <!-- Mobile Menu Button -->
+
+          <button id="openmenu" class="text-black text-2xl md:hidden pr-4">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+
+
+
+          <!-- Desktop Menu -->
+
+          <ul class="hidden md:flex space-x-4 lg:space-x-8">
+
+            <li class="my-2 mx-2">
+              <a class="text-black font-semibold text-lg hover:underline hover:underline-offset-8 hover:decoration-[#ed2224] hover:decoration-4"
+                href="../index.html">
+                Home
+              </a>
+            </li>
+
+            <div class="dropdown inline-block relative my-2 mx-3">
+              <button class="text-black font-semibold text-lg rounded inline-flex items-center">
+                <li>
+                  <a href="#" class="mr-1">
+                    Course
+                  </a>
+                </li>
+                <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                  <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu absolute w-[250px] hidden bg-[#ed2224] text-white z-50">
+                <li class=""><a class="rounded-t py-2 px-4 block whitespace-no-wrap" href="../uiux/uiux.html">UIUX
+                    Designing</a></li>
+                <li class=""><a class="py-2 px-4 block whitespace-no-wrap" href="../frontend/frontend.html">Frontend
+                    Development</a></li>
+                <li class=""><a class="rounded-b py-2 px-4 block whitespace-no-wrap"
+                    href="../backend/backend.html">Bcakend Development</a></li>
+                <li class=""><a class="rounded-b py-2 px-4 block whitespace-no-wrap"
+                    href="../flutter/flutter.html">Flutter Development</a></li>
+                <li class=""><a class="rounded-b py-2 px-4 block whitespace-no-wrap"
+                    href="../fullstack/fullstack.html">fullStack Development</a></li>
+                <li class=""><a class="rounded-b py-2 px-4 block whitespace-no-wrap"
+                    href="../android/android.html">Android Development</a></li>
+                <li class=""><a class="rounded-b py-2 px-4 block whitespace-no-wrap" href="../ios/ios.html">Ios
+                    Development</a></li>
+                <li class=""><a class="rounded-b py-2 px-4 block whitespace-no-wrap" href="../python/python.html">Python
+                    Development</a></li>
+                <li class=""><a class="rounded-b py-2 px-4 block whitespace-no-wrap" href="../php/php.html">Php
+                    Development</a></li>
+                <li class=""><a class="rounded-b py-2 px-4 block whitespace-no-wrap" href="../angular/angular.html">Angular
+                    Development</a></li>
+                <li class=""><a class="rounded-b py-2 px-4 block whitespace-no-wrap" href="../reactnative/reatcnative.html">React Native Development</a></li>
+                <li class=""><a class="rounded-b py-2 px-4 block whitespace-no-wrap" href="../vue/vue.html">Vue Development</a></li>
+              </ul>
+            </div>
+
+            <li class="my-2 mx-3">
+              <a class="text-black font-semibold text-lg hover:underline hover:underline-offset-8 hover:decoration-[#ed2224] hover:decoration-4"
+                href="../placement/placement.html">
+                Placements
+              </a>
+            </li>
+            <li class="my-2 mx-3">
+              <a class="text-black font-semibold text-lg hover:underline hover:underline-offset-8 hover:decoration-[#ed2224] hover:decoration-4"
+                href="../aboutUs/about.html">
+                About us
+              </a>
+            </li>
+            <li class="my-2 mx-3">
+              <a class="text-black font-semibold text-lg hover:underline hover:underline-offset-8 hover:decoration-[#ed2224] hover:decoration-4"
+                href="../blog/blog.html">
+                Blog
+              </a>
+            </li>
+            <li class="my-2 mx-3">
+              <a class="text-black font-semibold text-lg hover:underline hover:underline-offset-8 hover:decoration-[#ed2224] hover:decoration-4"
+                href="../events/events.html">
+                Events
+              </a>
+            </li>
+            <li class="my-2 mx-3">
+              <a class="text-white px-3 py-0.5 bg-[#ed2224] rounded-full" href="../contact/contact.html">
+                Contact
+              </a>
+            </li>
+          </ul>
+
+
+        </nav>
+
+
+        <!-- Mobile Menu (Initially Hidden) -->
+
+        <ul id="mobilemenu"
+          class="hidden md:hidden z-50 absolute top-0 right-0 h-[100vh] w-2/3 ms:w-1/2 bg-[#ed2224] space-y-5 p-3">
+
+          <button id="closemenu" class="float-right text-white text-2xl">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+
+          <li class="mt-14">
+            <a class="text-white" href="../index.html">
+              Home
+            </a>
+          </li>
+          
+          <li><button class="block hasSubMenu text-lg text-white">course<span class="inline-block"><svg
+                  data-baseweb="icon" viewBox="0 0 24 24" class="ml-1 w-4 h-4 fill-current chevron">
+                  <title>Course</title>
+                  <path transform="rotate(270, 12, 12)" fill-rule="evenodd" clip-rule="evenodd"
+                    d="M9 12C9 12.2652 9.10536 12.5196 9.29289 12.7071L13.2929 16.7071C13.6834 17.0976 14.3166 17.0976 14.7071 16.7071C15.0976 16.3166 15.0976 15.6834 14.7071 15.2929L11.4142 12L14.7071 8.70711C15.0976 8.31658 15.0976 7.68342 14.7071 7.29289C14.3166 6.90237 13.6834 6.90237 13.2929 7.29289L9.29289 11.2929C9.10536 11.4804 9 11.7348 9 12Z">
+                  </path>
+                </svg> </span> </button>
+            <ul class="bg-white text-sm subMenu hidden">
+              <li class=""><a class="rounded-t py-1 px-4 block whitespace-no-wrap" href="../uiux/uiux.html">UIUX
+                  Designing</a></li>
+              <li class=""><a class="py-1 px-4 block whitespace-no-wrap" href="../frontend/frontend.html">Frontend
+                  Development</a></li>
+              <li class=""><a class="rounded-b py-1 px-4 block whitespace-no-wrap" href="../backend/backend.html">Backend
+                  Development</a></li>
+              <li class=""><a class="rounded-b py-1 px-4 block whitespace-no-wrap" href="../flutter/flutter.html">Flutter
+                  Development</a></li>
+              <li class=""><a class="rounded-b py-1 px-4 block whitespace-no-wrap"
+                  href="../fullstack/fullstack.html">fullStack Development</a></li>
+              <li class=""><a class="rounded-b py-1 px-4 block whitespace-no-wrap" href="../android/android.html">Android
+                  Development</a></li>
+              <li class=""><a class="rounded-b py-1 px-4 block whitespace-no-wrap" href="../ios/ios.html">Ios
+                  Development</a></li>
+              <li class=""><a class="rounded-b py-1 px-4 block whitespace-no-wrap" href="../python/python.html">Python
+                  Development</a></li>
+              <li class=""><a class="rounded-b py-1 px-4 block whitespace-no-wrap" href="../php/php.html">Php
+                  Development</a></li>
+              <li class=""><a class="rounded-b py-1 px-4 block whitespace-no-wrap" href="../angular/angular.html">Angular
+                  Development</a></li>
+              <li class=""><a class="rounded-b py-1 px-4 block whitespace-no-wrap" href="../reactnative/reatcnative.html">React Native
+                  Development</a></li>
+              <li class=""><a class="rounded-b py-1 px-4 block whitespace-no-wrap" href="../vue/vue.html">Vue
+                  Development</a></li>
+            </ul>
+          </li>
+
+          <li class="">
+            <a class="text-white" href="../blog/blog.html">
+              Blog
+            </a>
+          </li>
+          <li class="">
+            <a class="text-white" href="../aboutUs/about.html">
+              About us
+            </a>
+          </li>
+          <li class="">
+            <a class="text-white" href="../placement/placement.html">
+              Placements
+            </a>
+          </li>
+          <li class="">
+            <a class="text-white" href="../events/events.html">
+              Events
+            </a>
+          </li>
+          <li class="">
+            <a class="bg-white px-3 py-0.5 text-[#ed2224] rounded-full" href="../contact/contact.html">
+              Contact
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </header>
+
+
+  
+  <!------------------------------------------------------------------->
+  <!--                  SECTION 1 ==> Grow with skill                -->
+  <!------------------------------------------------------------------->
+
+
+  <section>
+    <div class="container-2xl max-w-[1700px] mx-auto h-auto">
+      <div class="image flex justify-center items-center h-80 sm:h-96 md:h-[500px] xl:h-[600px] 2xl:h-[670px]">
+        <h2 class="text-white text-xl ms:text-3xl mss:text-4xl md:text-[55px] lg:text-[65px] 2xl:text-7xl font-bold">CONTACT US</h2>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!------------------------------------------------------------------->
+  <!--                   SECTION 2 ==> Get in Touch                  -->
+  <!------------------------------------------------------------------->
+
+
+  <section>
+    <div class="container-2xl max-w-[1700px] py-10 mx-auto h-auto md:px-8">
+      <div class="mx-auto px-4 xl:px-32 2xl:px-64 sm:my-10 xl:my-16">
+        <h2 class="text-2xl sm:text-4xl font-semibold">Get in Touch</h2>
+        <p class=" mt-3 sm:mt-5 text-lg">we are always here to assists you with any questions or concerns you may have about our Services</p>
+
+        <div class="w-full h-auto sm:flex justify-between gap-5 mt-7 sm:mt-12">
+          <div class="w-full sm:w-1/2 h-auto flex flex-col justify-between">
+
+            <div class="flex gap-5 mt-6 sm:mt-0">
+              <div>
+                <div class="flex justify-center items-center w-12 h-12 rounded-lg bg-[#ed2224] text-white text-xl">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+              </div>
+              <div class="">
+                <h3 class="font-bold text-lg">Location:</h3>
+                <p class="mt-1">208, 2nd floor, City center, Yogi chowk, Chikuwadi, Varachha, Surat, Gujarat 395010</p>
+              </div>
+            </div>
+
+            <div class="flex gap-5 mt-6 sm:mt-0">
+              <div>
+                <div class="flex justify-center items-center w-12 h-12 rounded-lg bg-[#ed2224] text-white text-xl">
+                  <i class="fa-regular fa-envelope"></i>
+                </div>
+              </div>
+              <div class="">
+                <h3 class="font-bold text-lg">Email:</h3>
+                <p class="mt-1">info@skillqode.in</p>
+              </div>
+            </div>
+
+            <div class="flex gap-5 mt-6 sm:mt-0">
+              <div>
+                <div class="flex justify-center items-center w-12 h-12 rounded-lg bg-[#ed2224] text-white text-xl">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+              </div>
+              <div class="">
+                <h3 class="font-bold text-lg">Phone:</h3>
+                <p class="mt-1">+91 949955 62 67</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="w-full sm:w-1/2 mt-6 ms:mt-10 sm:mt-0 h-auto">
+            <div class="">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.4164769912345!2d72.88559407557266!3d21.215327380481032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04f0a0395979b%3A0x92ea70c4c0d61949!2sSkillQode!5e0!3m2!1sen!2sin!4v1703830720406!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-full h-[350px]"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!------------------------------------------------------------------->
+  <!--                   SECTION 2 ==> For Inquiry                   -->
+  <!------------------------------------------------------------------->
+
+
+  <section>
+    <div class="bg-[#ed2224] w-full h-96 text-center text-white">
+      <h2 class="text-2xl sm:text-4xl font-semibold pt-12">For Inquiry</h2>
+      <p class="mt-2 ms:mt-3 sm:mt-5 sm:text-lg">If you have any questions, comments or concerns, please don't hesitate to get in touch <br>
+         with us. Our customer support team is available to assist you</p>
+    </div>
+
+    <div class="container-2xl max-w-[1700px] py-10 mx-auto h-auto md:px-8">
+      <div class="mx-auto px-8 xl:px-36 2xl:px-72 -mt-36">
+        <form action="" class="w-full h-auto rounded-xl py-8 sm:py-12 px-10 sm:px-16 bg-white shadow-2xl text-lg">
+          <div>
+            <label for="Name">Name</label>
+            <input type="text" id="Name" name="Name" class="w-full h-14 rounded-xl focus:outline-none px-3 border border-black mt-2" />
+          </div>
+          <div class="mt-8">
+            <label for="Phone No">Phone No</label>
+            <input type="tel" id="Phone No" name="Phone No" class="w-full h-14 rounded-xl focus:outline-none px-3 border border-black mt-2" />
+          </div>
+          <div class="mt-8">
+            <label for="Message">Message</label>
+            <textarea name="Message" id="Message" cols="33" rows="5" class="w-full h-40 rounded-xl focus:outline-none px-3 border border-black mt-2"></textarea>
+          </div>
+
+          <div class="flex justify-center mt-10">
+            <input type="submit" value="Submit" class="px-16 py-3 rounded-2xl bg-[#ed2224] text-white">
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+  <!------------------------------------------------------------------->
+  <!--                          Fotter                               -->
+  <!------------------------------------------------------------------->
+
+
+
+
+
+  <div class='w-[100%] bg-[#ed2224] mt-10'>
+    <div
+      class='xs:m-auto xs:max-w-full px-4 sm:px-0 sm:max-w-[600px] md:max-w-[700px] lg:max-w-[950px] xl:max-w-[1200px] 2xl:max-w-[1500px]'>
+      <div class='grid xs:grid-cols-1 md:grid-cols-2'>
+        <div>
+          <div class='py-10 pb-0'>
+            <h1 class='text-2xl sm:text-3xl font-bold text-white'>Stay in the loop</h1>
+            <p class='text-[16px] sm:text-[20px] font-[400px] mt-2 text-white'>We'll send you updates on discounts
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class='py-10 pb-0'>
+            <div class='flex gap-2 justify-between md:justify-end'>
+              <button
+                class='bg-black w-28 xs:w-36 sm:w-44 h-10 text-white hover:bg-white hover:text-black hover:duration-700 font-bold'>Enter
+                your email</button>
+              <button
+                class='bg-white w-28 xs:w-36 sm:w-44 h-10 text-red-500 sm:ms-3 mt-0 hover:bg-black hover:text-white hover:duration-700 font-bold text-lg'>Sign
+                Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='grid xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-6 my-20 sm:my-32 '>
+        <div class=''>
+          <p class='text-[24px] text-white font-semibold'>Product</p>
+          <div class='mt-5'>
+            <a href='javascript:void(0)'>
+              <p class='text-[18px] font-light w-0 text-white hover:text-black hover:duration-500'>Overview</p>
+            </a>
+            <a href='javascript:void(0)'>
+              <p
+                class='text-[18px] sm:text-[20px] font-light w-0 text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                Features</p>
+            </a>
+            <a href='javascript:void(0)'>
+              <p
+                class='text-[18px] sm:text-[20px] font-light w-0 text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                Pricing</p>
+            </a>
+            <div class='flex justify-between items-center'>
+              <a href='javascript:void(0)'>
+                <p
+                  class='ttext-[18px] sm:ext-[20px]  font-lightw-0 text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                  Releases</p>
+              </a>
+              <div class='bg-white px-4 py-1 mt-2 rounded-full md:me-5 lg:me-8 '>
+                <p class='text-[16px] text-red-500 '>New</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='flex justify-end sm:justify-end md:justify-center mt-0'>
+          <div>
+            <p class='text-[24px] text-white font-semibold'>Company</p>
+            <div class='mt-5'>
+              <a href='javascript:void(0)'>
+                <p class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500'>About us
+                </p>
+              </a>
+              <a href='javascript:void(0)'>
+                <p
+                  class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                  News</p>
+              </a>
+              <a href='javascript:void(0)'>
+                <p
+                  class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                  Media kit</p>
+              </a>
+              <a href='javascript:void(0)'>
+                <p
+                  class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                  Contact</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class='flex sm:justify-end xs:justify-start xs:mt-[30px] sm:mt-0'>
+          <div class="">
+            <p class='text-[24px] text-white font-semibold'>Resources</p>
+            <div class='mt-5'>
+              <a href='javascript:void(0)'>
+                <p class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500'>Blog
+                </p>
+              </a>
+              <a href='javascript:void(0)'>
+                <p
+                  class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                  Newsletter</p>
+              </a>
+              <a href='javascript:void(0)'>
+                <p
+                  class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                  Help center</p>
+              </a>
+              <a href='javascript:void(0)'>
+                <p
+                  class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                  Support</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class='flex justify-end sm:justify-start md:justify-start lg:justify-end sm:mt-5 md:mt-14 lg:mt-0 xs:mt-[30px]'>
+          <div>
+            <p class='text-[24px] text-white font-semibold'>Quick links</p>
+            <div class='mt-5'>
+              <a href='javascript:void(0)'>
+                <p class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500'>
+                  Overview
+                </p>
+              </a>
+              <a href='javascript:void(0)'>
+                <p
+                  class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                  Sitemap</p>
+              </a>
+              <a href='javascript:void(0)'>
+                <p
+                  class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                  Gift Caeds</p>
+              </a>
+              <a href='javascript:void(0)'>
+                <p
+                  class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                  Orders</p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class='flex lg:justify-end md:justify-center sm:justify-center sm:ms-14 md:ms-0 md:mt-14 lg:mt-0 sm:mt-5 xs:mt-[30px]'>
+          <div>
+            <p class='text-[24px] text-white font-semibold'>Social</p>
+            <div class='mt-5'>
+              <a href='https://twitter.com/skillqode_in/status/1455199395087994884' target="_blank">
+                <p class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500'>Twitter
+                </p>
+              </a>
+              <a href='https://www.instagram.com/skillqode.in/' target="_blank">
+                <p
+                  class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                  Instagram</p>
+              </a>
+              <a href='https://www.facebook.com/skillqode.in/' target="_blank">
+                <p
+                  class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                  Facbook</p>
+              </a>
+              <a href='https://in.linkedin.com/company/skillqode-in' target="_blank">
+                <p
+                  class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                  Linked in</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class='flex justify-end sm:justify-start md:justify-end sm:ms-14 md:ms-0 md:mt-14 lg:mt-0 sm:mt-5 xs:mt-[30px] me-14 sm:me-0'>
+          <div>
+            <p class='text-[24px] text-white font-semibold me-0 md:me-[60px] lg:me-0'>Legal</p>
+            <div class='mt-5'>
+              <a href='javascript:void(0)'>
+                <p class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500'>Terms
+                </p>
+              </a>
+              <a href='javascript:void(0)'>
+                <p
+                  class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                  Privacy</p>
+              </a>
+              <a href='javascript:void(0)'>
+                <p
+                  class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                  Cookies</p>
+              </a>
+              <a href='javascript:void(0)'>
+                <p
+                  class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                  Licences</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="mt-8">
+      <img src="../../Asset/White.svg" alt="" class="mt-2 m-auto h-[90px] sm:h-[130px]">
+      <div class="flex items-end sm:justify-center md:justify-center lg:justify-center xl:justify-end">
+        <div class="flex xs:mt-5 sm:mt-5 md:mt-5 lg:mt-5 xl:mt-[-60px]">
+          <img src="../../Asset/copyright 1.png" alt="" class="me-3 w-[24.17px] h-[24.17px]">
+          <p class="text-white mb-7">2023, Belle Foods. All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script src="../index.js"></script>
+</body>
+
+</html>

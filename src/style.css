@@ -7,6 +7,13 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.headingtext {
+  /* color: linear ; */
+  background: linear-gradient(to right, #f24e1e, #a259ff,#1abcfe, #0ACF83,#ff7262);
+  -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
 
 /* -----------------------------------------------------------------
                             Heading tag                             

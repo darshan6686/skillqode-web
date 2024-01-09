@@ -175,6 +175,10 @@ new Glide(".student1", {
       perView: 2,
       gap: -40,
     },
+    361: {
+      perView: 1,
+      gap: -150
+    }
   },
 
   gap: 16, // Adjust this value to control the gap between slides
@@ -200,7 +204,7 @@ new Glide(".student2", {
     1536: {
       perView: 5,
     },
-    1280: {
+    1270: {
       perView: 4,
     },
     768: {
@@ -210,6 +214,10 @@ new Glide(".student2", {
       perView: 2,
       gap: -40,
     },
+    361: {
+      perView: 1,
+      gap: -150
+    }
   },
   gap: 16, // Adjust this value to control the gap between slides
   autoplay: 200, // Set to 0 to disable autoplay or adjust the delay in milliseconds

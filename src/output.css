@@ -606,10 +606,6 @@ video {
   top: 360px;
 }
 
-.top-\[380px\] {
-  top: 380px;
-}
-
 .top-\[475px\] {
   top: 475px;
 }
@@ -690,6 +686,16 @@ video {
 .my-9 {
   margin-top: 2.25rem;
   margin-bottom: 2.25rem;
+}
+
+.my-7 {
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
+}
+
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .-mt-3 {
@@ -823,6 +829,10 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
 .block {
@@ -1031,10 +1041,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.max-w-\[1700px\] {
-  max-width: 1700px;
 }
 
 .max-w-full {
@@ -1295,11 +1301,6 @@ video {
   padding: 1rem;
 }
 
-.px-0 {
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -1396,13 +1397,13 @@ video {
   padding-bottom: 5rem;
 }
 
+.pb-7 {
+  padding-bottom: 1.75rem;
+}
+
 .pe-3 {
   -webkit-padding-end: 0.75rem;
           padding-inline-end: 0.75rem;
-}
-
-.pl-5 {
-  padding-left: 1.25rem;
 }
 
 .pl-80 {
@@ -1435,6 +1436,10 @@ video {
 
 .pt-4 {
   padding-top: 1rem;
+}
+
+.pb-8 {
+  padding-bottom: 2rem;
 }
 
 .text-left {
@@ -1877,14 +1882,6 @@ video {
     width: 20rem;
   }
 
-  .xs\:max-w-\[500px\] {
-    max-width: 500px;
-  }
-
-  .xs\:max-w-full {
-    max-width: 100%;
-  }
-
   .xs\:grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
@@ -2089,6 +2086,11 @@ video {
     margin-bottom: 2.5rem;
   }
 
+  .sm\:my-12 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
   .sm\:my-20 {
     margin-top: 5rem;
     margin-bottom: 5rem;
@@ -2162,6 +2164,10 @@ video {
 
   .sm\:mt-7 {
     margin-top: 1.75rem;
+  }
+
+  .sm\:mt-20 {
+    margin-top: 5rem;
   }
 
   .sm\:block {
@@ -2272,14 +2278,6 @@ video {
     width: 100%;
   }
 
-  .sm\:max-w-\[600px\] {
-    max-width: 600px;
-  }
-
-  .sm\:max-w-\[800px\] {
-    max-width: 800px;
-  }
-
   .sm\:max-w-xl {
     max-width: 36rem;
   }
@@ -2318,11 +2316,6 @@ video {
 
   .sm\:p-0 {
     padding: 0px;
-  }
-
-  .sm\:px-0 {
-    padding-left: 0px;
-    padding-right: 0px;
   }
 
   .sm\:px-10 {
@@ -2546,14 +2539,6 @@ video {
     max-width: 42rem;
   }
 
-  .md\:max-w-\[700px\] {
-    max-width: 700px;
-  }
-
-  .md\:max-w-\[800px\] {
-    max-width: 800px;
-  }
-
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -2580,6 +2565,11 @@ video {
 
   .md\:gap-y-8 {
     row-gap: 2rem;
+  }
+
+  .md\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .md\:px-8 {
@@ -2755,10 +2745,6 @@ video {
     width: auto;
   }
 
-  .lg\:max-w-\[950px\] {
-    max-width: 950px;
-  }
-
   .lg\:grid-cols-6 {
     grid-template-columns: repeat(6, minmax(0, 1fr));
   }
@@ -2930,14 +2916,6 @@ video {
     max-width: 64rem;
   }
 
-  .xl\:max-w-\[1200px\] {
-    max-width: 1200px;
-  }
-
-  .xl\:max-w-\[1300px\] {
-    max-width: 1300px;
-  }
-
   .xl\:max-w-full {
     max-width: 100%;
   }
@@ -2960,11 +2938,6 @@ video {
     padding-right: 8rem;
   }
 
-  .xl\:px-36 {
-    padding-left: 9rem;
-    padding-right: 9rem;
-  }
-
   .xl\:pb-\[60px\] {
     padding-bottom: 60px;
   }
@@ -2973,12 +2946,8 @@ video {
     padding-left: 0px;
   }
 
-  .xl\:pl-32 {
-    padding-left: 8rem;
-  }
-
-  .xl\:pl-\[500px\] {
-    padding-left: 500px;
+  .xl\:pl-\[00px\] {
+    padding-left: 00px;
   }
 
   .xl\:pt-16 {
@@ -3040,28 +3009,12 @@ video {
     height: 670px;
   }
 
-  .\32xl\:w-\[1679px\] {
-    width: 1679px;
-  }
-
-  .\32xl\:w-\[1700px\] {
-    width: 1700px;
-  }
-
   .\32xl\:w-\[750px\] {
     width: 750px;
   }
 
   .\32xl\:w-full {
     width: 100%;
-  }
-
-  .\32xl\:max-w-\[1500px\] {
-    max-width: 1500px;
-  }
-
-  .\32xl\:max-w-\[1700px\] {
-    max-width: 1700px;
   }
 
   .\32xl\:max-w-\[300px\] {
@@ -3073,21 +3026,8 @@ video {
     padding-right: 16rem;
   }
 
-  .\32xl\:px-72 {
-    padding-left: 18rem;
-    padding-right: 18rem;
-  }
-
-  .\32xl\:pl-64 {
-    padding-left: 16rem;
-  }
-
-  .\32xl\:pl-72 {
-    padding-left: 18rem;
-  }
-
-  .\32xl\:pl-\[600px\] {
-    padding-left: 600px;
+  .\32xl\:pl-0 {
+    padding-left: 0px;
   }
 
   .\32xl\:text-7xl {

@@ -3,42 +3,36 @@ new Glide(".student3", {
     startAt: 0,
     perView: 4, // Number of visible slides at a time
     breakpoints: {
-      1355: {
-        perView: 4,
-        gap: 80
-      },
-      1280: {
-        perView: 4,
-      },
-      1100: {
+      1159: {
         perView: 3,
         gap: -40
       },
       1020: {
         perView: 4
       },
-      910: {
-        perView: 3
+      1000: {
+        perView: 3,
+        gap: -20
       },
-      685: {
+      715: {
         perView: 2,
         gap: -60
       },
-      640: {
+      596: {
         perView: 3
       },
-      500: {
+      516: {
         perView: 2,
         gap: -40,
       },
-      400: {
+      418: {
         perView: 2
       },
-      340: {
+      350: {
         perView: 1,
         gap: -110
       },
-      300: {
+      315: {
         perView: 1
       }
     },
@@ -58,42 +52,36 @@ new Glide(".placement", {
     startAt: 0,
     perView: 4, // Number of visible slides at a time
     breakpoints: {
-      1355: {
-        perView: 4,
-        gap: 80
-      },
-      1280: {
-        perView: 4,
-      },
-      1100: {
+      1159: {
         perView: 3,
         gap: -40
       },
       1020: {
         perView: 4
       },
-      910: {
-        perView: 3
+      1000: {
+        perView: 3,
+        gap: -20
       },
-      685: {
+      715: {
         perView: 2,
         gap: -60
       },
-      640: {
+      596: {
         perView: 3
       },
-      500: {
+      516: {
         perView: 2,
         gap: -40,
       },
-      400: {
+      418: {
         perView: 2
       },
-      340: {
+      350: {
         perView: 1,
         gap: -110
       },
-      300: {
+      315: {
         perView: 1
       }
     },
@@ -114,42 +102,36 @@ new Glide(".placement", {
     startAt: 0,
     perView: 4, // Number of visible slides at a time
     breakpoints: {
-      1355: {
-        perView: 4,
-        gap: 80
-      },
-      1280: {
-        perView: 4,
-      },
-      1100: {
+      1159: {
         perView: 3,
         gap: -40
       },
       1020: {
         perView: 4
       },
-      910: {
-        perView: 3
+      1000: {
+        perView: 3,
+        gap: -20
       },
-      685: {
+      715: {
         perView: 2,
         gap: -60
       },
-      640: {
+      596: {
         perView: 3
       },
-      500: {
+      516: {
         perView: 2,
         gap: -40,
       },
-      400: {
+      418: {
         perView: 2
       },
-      340: {
+      350: {
         perView: 1,
         gap: -110
       },
-      300: {
+      315: {
         perView: 1
       }
     },
@@ -169,42 +151,36 @@ new Glide(".placement", {
     startAt: 0,
     perView: 4, // Number of visible slides at a time
     breakpoints: {
-      1355: {
-        perView: 4,
-        gap: 80
-      },
-      1280: {
-        perView: 4,
-      },
-      1100: {
+      1159: {
         perView: 3,
         gap: -40
       },
       1020: {
         perView: 4
       },
-      910: {
-        perView: 3
+      1000: {
+        perView: 3,
+        gap: -20
       },
-      685: {
+      715: {
         perView: 2,
         gap: -60
       },
-      640: {
+      596: {
         perView: 3
       },
-      500: {
+      516: {
         perView: 2,
         gap: -40,
       },
-      400: {
+      418: {
         perView: 2
       },
-      340: {
+      350: {
         perView: 1,
         gap: -110
       },
-      300: {
+      315: {
         perView: 1
       }
     },
@@ -226,42 +202,36 @@ new Glide(".placement", {
     startAt: 0,
     perView: 4, // Number of visible slides at a time
     breakpoints: {
-      1355: {
-        perView: 4,
-        gap: 80
-      },
-      1280: {
-        perView: 4,
-      },
-      1100: {
+      1159: {
         perView: 3,
         gap: -40
       },
       1020: {
         perView: 4
       },
-      910: {
-        perView: 3
+      1000: {
+        perView: 3,
+        gap: -20
       },
-      685: {
+      715: {
         perView: 2,
         gap: -60
       },
-      640: {
+      596: {
         perView: 3
       },
-      500: {
+      516: {
         perView: 2,
         gap: -40,
       },
-      400: {
+      418: {
         perView: 2
       },
-      340: {
+      350: {
         perView: 1,
         gap: -110
       },
-      300: {
+      315: {
         perView: 1
       }
     },

@@ -162,11 +162,15 @@ new Glide(".student1", {
     2126: {
       perView: 6,
     },
-    1536: {
+    1581: {
       perView: 5,
     },
     1270: {
       perView: 4,
+    },
+    1073: {
+      perView: 3,
+      gap: -90
     },
     768: {
       perView: 3,
@@ -175,9 +179,9 @@ new Glide(".student1", {
       perView: 2,
       gap: -40,
     },
-    361: {
+    362:{
       perView: 1,
-      gap: -150
+      gap: -130
     }
   },
 
@@ -201,11 +205,15 @@ new Glide(".student2", {
     2126: {
       perView: 6,
     },
-    1536: {
+    1581: {
       perView: 5,
     },
-    1270: {
+    1280: {
       perView: 4,
+    },
+    1073: {
+      perView: 3,
+      gap: -90
     },
     768: {
       perView: 3,
@@ -214,9 +222,9 @@ new Glide(".student2", {
       perView: 2,
       gap: -40,
     },
-    361: {
+    362:{
       perView: 1,
-      gap: -150
+      gap: -130
     }
   },
   gap: 16, // Adjust this value to control the gap between slides

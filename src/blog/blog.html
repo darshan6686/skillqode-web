@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
   <link rel="stylesheet" href="../style.css">
-  <link rel="stylesheet" href="../../dist/output.css">
+  <link rel="stylesheet" href="../output.css">
   <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
   <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
 
@@ -36,17 +36,19 @@
 
   <header class="">
     <div class="w-full h-auto flex items-center justify-end bg-[#ed2224] text-white py-1">
-      <div class="w-full lg:w-2/3 xl:w-1/2 text-[7px] sm:text-xs md:text-base">
+        <div class="container">
+      <div class="w-full  text-center md:text-end text-[7px] sm:text-xs md:text-base">
         <a href="javascript:void(0)" class="mx-2 sm:mx-2 font-medium">100% job placements</a>
         <a href="javascript:void(0)" class="mx-2 sm:mx-2 font-medium">Lifetime Support</a>
         <a href="javascript:void(0)" class="mx-2 sm:mx-2 font-medium">Expert Team</a>
         <a href="javascript:void(0)" class="mx-2 sm:mx-2 font-medium">Contact</a>
       </div>
     </div>
+    </div>
 
-    <div class="container-2xl mx-auto bg-white">
-      <div class="py-2 z-50 bg-white w-full nav-wrapper" id="navbar">
-        <nav class="container-2xl flex justify-between items-center maindiv mx-auto menu-center relative">
+    <div class=" bg-white">
+      <div class="py-2 z-50 bg-white w-full  nav-wrapper shadow-md" id="navbar">
+        <nav class="container flex justify-between items-center  menu-center relative">
           <div class="font-semibold cursor-pointer px-4" id="logoimg">
             <img src='../../Asset/Color.svg' class="w-40 lg:w-56 h-auto" style="background-color: transparent;" />
           </div>
@@ -74,14 +76,14 @@
           <ul class="hidden md:flex space-x-4 lg:space-x-8">
 
             <li class="my-2 mx-2">
-              <a class="text-black font-semibold text-lg hover:underline hover:underline-offset-8 hover:decoration-[#ed2224] hover:decoration-4"
+              <a class="text-black font-semibold text-sm lg:text-lg hover:underline hover:underline-offset-8 hover:decoration-[#ed2224] hover:decoration-4"
                 href="../index.html">
                 Home
               </a>
             </li>
 
             <div class="dropdown inline-block relative my-2 mx-3">
-              <button class="text-black font-semibold text-lg rounded inline-flex items-center">
+              <button class="text-black font-semibold text-sm lg:text-lg rounded inline-flex items-center">
                 <li>
                   <a href="#" class="mr-1">
                     Course
@@ -118,25 +120,25 @@
             </div>
 
             <li class="my-2 mx-3">
-              <a class="text-black font-semibold text-lg hover:underline hover:underline-offset-8 hover:decoration-[#ed2224] hover:decoration-4"
+              <a class="text-black font-semibold text-sm lg:text-lg hover:underline hover:underline-offset-8 hover:decoration-[#ed2224] hover:decoration-4"
                 href="../placement/placement.html">
                 Placements
               </a>
             </li>
             <li class="my-2 mx-3">
-              <a class="text-black font-semibold text-lg hover:underline hover:underline-offset-8 hover:decoration-[#ed2224] hover:decoration-4"
+              <a class="text-black font-semibold text-sm lg:text-lg hover:underline hover:underline-offset-8 hover:decoration-[#ed2224] hover:decoration-4"
                 href="../aboutUs/about.html">
                 About us
               </a>
             </li>
             <li class="my-2 mx-3">
-              <a class="text-black font-semibold text-lg hover:underline hover:underline-offset-8 hover:decoration-[#ed2224] hover:decoration-4 active"
+              <a class="text-black font-semibold text-sm lg:text-lg hover:underline hover:underline-offset-8 hover:decoration-[#ed2224] hover:decoration-4"
                 href="../blog/blog.html">
                 Blog
               </a>
             </li>
             <li class="my-2 mx-3">
-              <a class="text-black font-semibold text-lg hover:underline hover:underline-offset-8 hover:decoration-[#ed2224] hover:decoration-4"
+              <a class="text-black font-semibold text-sm lg:text-lg hover:underline hover:underline-offset-8 hover:decoration-[#ed2224] hover:decoration-4"
                 href="../events/events.html">
                 Events
               </a>
@@ -169,7 +171,7 @@
           
           <li><button class="block hasSubMenu text-lg text-white">course<span class="inline-block"><svg
                   data-baseweb="icon" viewBox="0 0 24 24" class="ml-1 w-4 h-4 fill-current chevron">
-                  <title>Course</title>
+                  <title>Chevron Down</title>
                   <path transform="rotate(270, 12, 12)" fill-rule="evenodd" clip-rule="evenodd"
                     d="M9 12C9 12.2652 9.10536 12.5196 9.29289 12.7071L13.2929 16.7071C13.6834 17.0976 14.3166 17.0976 14.7071 16.7071C15.0976 16.3166 15.0976 15.6834 14.7071 15.2929L11.4142 12L14.7071 8.70711C15.0976 8.31658 15.0976 7.68342 14.7071 7.29289C14.3166 6.90237 13.6834 6.90237 13.2929 7.29289L9.29289 11.2929C9.10536 11.4804 9 11.7348 9 12Z">
                   </path>
@@ -233,7 +235,6 @@
     </div>
   </header>
 
-
   
 
 
@@ -248,205 +249,216 @@
 
 
 
-  <div class='container-2xl bg-[#ed2224] mt-10'>
+  <div class='w-[100%] bg-[#ed2224] mt-10'>
     <div
-      class='mx-auto px-5 md:px-8 maindiv'>
-      <div class='grid xs:grid-cols-1 md:grid-cols-2'>
-        <div>
-          <div class='py-10 pb-0'>
-            <h1 class='text-2xl sm:text-3xl font-bold text-white'>Stay in the loop</h1>
-            <p class='text-[16px] sm:text-[20px] font-[400px] mt-2 text-white'>We'll send you updates on discounts
-            </p>
-          </div>
-        </div>
-        <div>
-          <div class='py-10 pb-0'>
-            <div class='flex gap-2 justify-between md:justify-end'>
-              <button
-                class='bg-black w-28 xs:w-36 sm:w-44 h-10 text-white hover:bg-white hover:text-black hover:duration-700 font-bold'>Enter
-                your email</button>
-              <button
-                class='bg-white w-28 xs:w-36 sm:w-44 h-10 text-red-500 sm:ms-3 mt-0 hover:bg-black hover:text-white hover:duration-700 font-bold text-lg'>Sign
-                Up</button>
+        class='xs:m-auto xs:max-w-full sm:max-w-[600px] md:max-w-[700px] lg:max-w-[950px] xl:max-w-[1200px] 2xl:max-w-[1500px]'>
+        <div class='grid xs:grid-cols-1 md:grid-cols-2'>
+            <div>
+                <div class='py-10 pb-0'>
+                    <h1 class='text-2xl sm:text-3xl font-bold text-white'>Stay in the loop</h1>
+                    <p class='text-[16px] sm:text-[20px] font-[400px] mt-2 text-white'>We'll send you updates on
+                        discounts
+                    </p>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class='grid xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-6 my-20 sm:my-32 '>
-        <div class=''>
-          <p class='text-[24px] text-white font-semibold'>Product</p>
-          <div class='mt-5'>
-            <a href='javascript:void(0)'>
-              <p class='text-[18px] font-light w-0 text-white hover:text-black hover:duration-500'>Overview</p>
-            </a>
-            <a href='javascript:void(0)'>
-              <p
-                class='text-[18px] sm:text-[20px] font-light w-0 text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
-                Features</p>
-            </a>
-            <a href='javascript:void(0)'>
-              <p
-                class='text-[18px] sm:text-[20px] font-light w-0 text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
-                Pricing</p>
-            </a>
-            <div class='flex justify-between items-center'>
-              <a href='javascript:void(0)'>
-                <p
-                  class='ttext-[18px] sm:ext-[20px]  font-lightw-0 text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
-                  Releases</p>
-              </a>
-              <div class='bg-white px-4 py-1 mt-2 rounded-full md:me-5 lg:me-8 '>
-                <p class='text-[16px] text-red-500 '>New</p>
-              </div>
+            <div>
+                <div class='py-10 pb-0'>
+                    <div class='flex gap-2 justify-between md:justify-end'>
+                        <button
+                            class='bg-black w-28 xs:w-36 sm:w-44 h-10 text-white hover:bg-white hover:text-black hover:duration-700 font-bold'>Enter
+                            your email</button>
+                        <button
+                            class='bg-white w-28 xs:w-36 sm:w-44 h-10 text-red-500 sm:ms-3 mt-0 hover:bg-black hover:text-white hover:duration-700 font-bold text-lg'>Sign
+                            Up</button>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-        <div class='flex justify-end sm:justify-end md:justify-center mt-0'>
-          <div>
-            <p class='text-[24px] text-white font-semibold'>Company</p>
-            <div class='mt-5'>
-              <a href='javascript:void(0)'>
-                <p class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500'>About us
-                </p>
-              </a>
-              <a href='javascript:void(0)'>
-                <p
-                  class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
-                  News</p>
-              </a>
-              <a href='javascript:void(0)'>
-                <p
-                  class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
-                  Media kit</p>
-              </a>
-              <a href='javascript:void(0)'>
-                <p
-                  class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
-                  Contact</p>
-              </a>
+        <div class='grid xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-6 my-20 sm:my-32 '>
+            <div class=''>
+                <p class='text-[24px] text-white font-semibold'>Product</p>
+                <div class='mt-5'>
+                    <a href='javascript:void(0)'>
+                        <p class='text-[18px] font-light w-0 text-white hover:text-black hover:duration-500'>
+                            Overview</p>
+                    </a>
+                    <a href='javascript:void(0)'>
+                        <p
+                            class='text-[18px] sm:text-[20px] font-light w-0 text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                            Features</p>
+                    </a>
+                    <a href='javascript:void(0)'>
+                        <p
+                            class='text-[18px] sm:text-[20px] font-light w-0 text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                            Pricing</p>
+                    </a>
+                    <div class='flex justify-between items-center'>
+                        <a href='javascript:void(0)'>
+                            <p
+                                class='ttext-[18px] sm:ext-[20px]  font-lightw-0 text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                                Releases</p>
+                        </a>
+                        <div class='bg-white px-4 py-1 mt-2 rounded-full md:me-5 lg:me-8 '>
+                            <p class='text-[16px] text-red-500 '>New</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class='flex sm:justify-end xs:justify-start xs:mt-[30px] sm:mt-0'>
-          <div class="">
-            <p class='text-[24px] text-white font-semibold'>Resources</p>
-            <div class='mt-5'>
-              <a href='javascript:void(0)'>
-                <p class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500'>Blog
-                </p>
-              </a>
-              <a href='javascript:void(0)'>
-                <p
-                  class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
-                  Newsletter</p>
-              </a>
-              <a href='javascript:void(0)'>
-                <p
-                  class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
-                  Help center</p>
-              </a>
-              <a href='javascript:void(0)'>
-                <p
-                  class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
-                  Support</p>
-              </a>
+            <div class='flex justify-end sm:justify-end md:justify-center mt-0'>
+                <div>
+                    <p class='text-[24px] text-white font-semibold'>Company</p>
+                    <div class='mt-5'>
+                        <a href='javascript:void(0)'>
+                            <p
+                                class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500'>
+                                About us
+                            </p>
+                        </a>
+                        <a href='javascript:void(0)'>
+                            <p
+                                class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                                News</p>
+                        </a>
+                        <a href='javascript:void(0)'>
+                            <p
+                                class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                                Media kit</p>
+                        </a>
+                        <a href='javascript:void(0)'>
+                            <p
+                                class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                                Contact</p>
+                        </a>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div
-          class='flex justify-end sm:justify-start md:justify-start lg:justify-end sm:mt-5 md:mt-14 lg:mt-0 xs:mt-[30px]'>
-          <div>
-            <p class='text-[24px] text-white font-semibold'>Quick links</p>
-            <div class='mt-5'>
-              <a href='javascript:void(0)'>
-                <p class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500'>
-                  Overview
-                </p>
-              </a>
-              <a href='javascript:void(0)'>
-                <p
-                  class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
-                  Sitemap</p>
-              </a>
-              <a href='javascript:void(0)'>
-                <p
-                  class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
-                  Gift Caeds</p>
-              </a>
-              <a href='javascript:void(0)'>
-                <p
-                  class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
-                  Orders</p>
-              </a>
+            <div class='flex sm:justify-end xs:justify-start xs:mt-[30px] sm:mt-0'>
+                <div class="">
+                    <p class='text-[24px] text-white font-semibold'>Resources</p>
+                    <div class='mt-5'>
+                        <a href='javascript:void(0)'>
+                            <p
+                                class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500'>
+                                Blog
+                            </p>
+                        </a>
+                        <a href='javascript:void(0)'>
+                            <p
+                                class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                                Newsletter</p>
+                        </a>
+                        <a href='javascript:void(0)'>
+                            <p
+                                class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                                Help center</p>
+                        </a>
+                        <a href='javascript:void(0)'>
+                            <p
+                                class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                                Support</p>
+                        </a>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
+            <div
+                class='flex justify-end sm:justify-start md:justify-start lg:justify-end sm:mt-5 md:mt-14 lg:mt-0 xs:mt-[30px]'>
+                <div>
+                    <p class='text-[24px] text-white font-semibold'>Quick links</p>
+                    <div class='mt-5'>
+                        <a href='javascript:void(0)'>
+                            <p
+                                class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500'>
+                                Overview
+                            </p>
+                        </a>
+                        <a href='javascript:void(0)'>
+                            <p
+                                class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                                Sitemap</p>
+                        </a>
+                        <a href='javascript:void(0)'>
+                            <p
+                                class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                                Gift Caeds</p>
+                        </a>
+                        <a href='javascript:void(0)'>
+                            <p
+                                class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                                Orders</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
 
-        <div
-          class='flex lg:justify-end md:justify-center sm:justify-center sm:ms-14 md:ms-0 md:mt-14 lg:mt-0 sm:mt-5 xs:mt-[30px]'>
-          <div>
-            <p class='text-[24px] text-white font-semibold'>Social</p>
-            <div class='mt-5'>
-              <a href='https://twitter.com/skillqode_in/status/1455199395087994884' target="_blank">
-                <p class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500'>Twitter
-                </p>
-              </a>
-              <a href='https://www.instagram.com/skillqode.in/' target="_blank">
-                <p
-                  class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
-                  Instagram</p>
-              </a>
-              <a href='https://www.facebook.com/skillqode.in/' target="_blank">
-                <p
-                  class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
-                  Facbook</p>
-              </a>
-              <a href='https://in.linkedin.com/company/skillqode-in' target="_blank">
-                <p
-                  class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
-                  Linked in</p>
-              </a>
+            <div
+                class='flex lg:justify-end md:justify-center sm:justify-center sm:ms-14 md:ms-0 md:mt-14 lg:mt-0 sm:mt-5 xs:mt-[30px]'>
+                <div>
+                    <p class='text-[24px] text-white font-semibold'>Social</p>
+                    <div class='mt-5'>
+                        <a href='https://twitter.com/skillqode_in/status/1455199395087994884' target="_blank">
+                            <p
+                                class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500'>
+                                Twitter
+                            </p>
+                        </a>
+                        <a href='https://www.instagram.com/skillqode.in/' target="_blank">
+                            <p
+                                class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                                Instagram</p>
+                        </a>
+                        <a href='https://www.facebook.com/skillqode.in/' target="_blank">
+                            <p
+                                class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                                Facbook</p>
+                        </a>
+                        <a href='https://in.linkedin.com/company/skillqode-in' target="_blank">
+                            <p
+                                class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                                Linked in</p>
+                        </a>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div
-          class='flex justify-end sm:justify-start md:justify-end sm:ms-14 md:ms-0 md:mt-14 lg:mt-0 sm:mt-5 xs:mt-[30px] me-14 sm:me-0'>
-          <div>
-            <p class='text-[24px] text-white font-semibold me-0 md:me-[60px] lg:me-0'>Legal</p>
-            <div class='mt-5'>
-              <a href='javascript:void(0)'>
-                <p class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500'>Terms
-                </p>
-              </a>
-              <a href='javascript:void(0)'>
-                <p
-                  class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
-                  Privacy</p>
-              </a>
-              <a href='javascript:void(0)'>
-                <p
-                  class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
-                  Cookies</p>
-              </a>
-              <a href='javascript:void(0)'>
-                <p
-                  class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
-                  Licences</p>
-              </a>
+            <div
+                class='flex justify-end sm:justify-start md:justify-end sm:ms-14 md:ms-0 md:mt-14 lg:mt-0 sm:mt-5 xs:mt-[30px] me-14 sm:me-0'>
+                <div>
+                    <p class='text-[24px] text-white font-semibold me-0 md:me-[60px] lg:me-0'>Legal</p>
+                    <div class='mt-5'>
+                        <a href='javascript:void(0)'>
+                            <p
+                                class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500'>
+                                Terms
+                            </p>
+                        </a>
+                        <a href='javascript:void(0)'>
+                            <p
+                                class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                                Privacy</p>
+                        </a>
+                        <a href='javascript:void(0)'>
+                            <p
+                                class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                                Cookies</p>
+                        </a>
+                        <a href='javascript:void(0)'>
+                            <p
+                                class='text-[18px] sm:text-[20px] font-light text-white hover:text-black hover:duration-500 mt-2 md:mt-5'>
+                                Licences</p>
+                        </a>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-      <hr class="mt-8">
-      <img src="../../Asset/White.svg" alt="" class="mt-2 m-auto h-[90px] sm:h-[130px]">
-      <div class="flex items-end sm:justify-center md:justify-center lg:justify-center xl:justify-end">
-        <div class="flex xs:mt-5 sm:mt-5 md:mt-5 lg:mt-5 xl:mt-[-60px]">
-          <img src="../../Asset/copyright 1.png" alt="" class="me-3 w-[24.17px] h-[24.17px]">
-          <p class="text-white mb-7">2023, Belle Foods. All Rights Reserved</p>
+        <hr class="mt-8">
+        <img src="../../Asset/White.svg" alt="" class="mt-2 m-auto h-[90px] sm:h-[130px]">
+        <div class="flex items-end sm:justify-center md:justify-center lg:justify-center xl:justify-end">
+            <div class="flex xs:mt-5 sm:mt-5 md:mt-5 lg:mt-5 xl:mt-[-60px]">
+                <img src="../../Asset/copyright 1.png" alt="" class="me-3 w-[24.17px] h-[24.17px]">
+                <p class="text-white mb-7">2023, Belle Foods. All Rights Reserved</p>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
+</div>
 
 
 

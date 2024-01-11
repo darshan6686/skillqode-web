@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="">
 
 <head>
   <meta charset="UTF-8">
@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
   <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="../dist/output.css">
+  <link rel="stylesheet" href="output.css">
   <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
   <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
 
@@ -35,18 +35,20 @@
 
 
   <header class="">
-    <div class="w-full h-auto flex items-center justify-end bg-[#ed2224] text-white py-1">
-      <div class="w-full lg:w-2/3 xl:w-1/2 text-[7px] sm:text-xs md:text-base">
-        <a href="javascript:void(0)" class="mx-2 sm:mx-2 font-medium">100% job placements</a>
-        <a href="javascript:void(0)" class="mx-2 sm:mx-2 font-medium">Lifetime Support</a>
-        <a href="javascript:void(0)" class="mx-2 sm:mx-2 font-medium">Expert Team</a>
-        <a href="javascript:void(0)" class="mx-2 sm:mx-2 font-medium">Contact</a>
+    <div class="w-full h-auto  bg-[#ed2224] text-white py-1">
+      <div class="container">
+        <div class="w-full  text-center md:text-end text-[7px] sm:text-xs md:text-base">
+          <a href="javascript:void(0)" class="mx-2 sm:mx-2 font-medium">100% job placements</a>
+          <a href="javascript:void(0)" class="mx-2 sm:mx-2 font-medium">Lifetime Support</a>
+          <a href="javascript:void(0)" class="mx-2 sm:mx-2 font-medium">Expert Team</a>
+          <a href="javascript:void(0)" class="mx-2 sm:mx-2 font-medium">Contact</a>
+        </div>
       </div>
     </div>
 
-    <div class="container-2xl mx-auto bg-white">
-      <div class="py-2 z-50 bg-white w-full mx-auto nav-wrapper" id="navbar">
-        <nav class="container-2xl flex justify-between items-center maindiv mx-auto menu-center relative md:px-4">
+    <div class=" bg-white ">
+      <div class="py-2 z-50 bg-white w-full nav-wrapper shadow-md" id="navbar">
+        <nav class="container flex justify-between items-center menu-center relative">
           <div class="font-semibold cursor-pointer px-4" id="logoimg">
             <img src='../Asset/Color.svg' class="w-40 lg:w-56 h-auto" style="background-color: transparent;" />
           </div>
@@ -74,14 +76,14 @@
           <ul class="hidden md:flex space-x-4 lg:space-x-8">
 
             <li class="my-2 mx-2">
-              <a class="text-black font-semibold text-lg hover:underline hover:underline-offset-8 hover:decoration-[#ed2224] hover:decoration-4 active"
+              <a class="text-black font-semibold text-sm lg:text-lg hover:underline hover:underline-offset-8 hover:decoration-[#ed2224] hover:decoration-4 active"
                 href="./index.html">
                 Home
               </a>
             </li>
 
             <div class="dropdown inline-block relative my-2 mx-3">
-              <button class="text-black font-semibold text-lg rounded inline-flex items-center">
+              <button class="text-black font-semibold text-sm lg:text-lg rounded inline-flex items-center">
                 <li>
                   <a href="#" class="mr-1">
                     Course
@@ -91,7 +93,7 @@
                   <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
                 </svg>
               </button>
-              <ul class="dropdown-menu absolute w-[250px] hidden bg-[#ed2224] text-white">
+              <ul class="dropdown-menu absolute w-[250px] hidden bg-[#ed2224] text-white z-50">
                 <li class=""><a class="rounded-t py-2 px-4 block whitespace-no-wrap" href="./uiux/uiux.html">UIUX
                     Designing</a></li>
                 <li class=""><a class="py-2 px-4 block whitespace-no-wrap" href="./frontend/frontend.html">Frontend
@@ -110,33 +112,36 @@
                     Development</a></li>
                 <li class=""><a class="rounded-b py-2 px-4 block whitespace-no-wrap" href="./php/php.html">Php
                     Development</a></li>
-                <li class=""><a class="rounded-b py-2 px-4 block whitespace-no-wrap" href="./angular/angular.html">Angular
+                <li class=""><a class="rounded-b py-2 px-4 block whitespace-no-wrap"
+                    href="./angular/angular.html">Angular
                     Development</a></li>
-                <li class=""><a class="rounded-b py-2 px-4 block whitespace-no-wrap" href="./reactnative/reatcnative.html">React Native Development</a></li>
-                <li class=""><a class="rounded-b py-2 px-4 block whitespace-no-wrap" href="./vue/vue.html">Vue Development</a></li>
+                <li class=""><a class="rounded-b py-2 px-4 block whitespace-no-wrap"
+                    href="./reactnative/reatcnative.html">React Native Development</a></li>
+                <li class=""><a class="rounded-b py-2 px-4 block whitespace-no-wrap" href="./vue/vue.html">Vue
+                    Development</a></li>
               </ul>
             </div>
 
             <li class="my-2 mx-3">
-              <a class="text-black font-semibold text-lg hover:underline hover:underline-offset-8 hover:decoration-[#ed2224] hover:decoration-4"
+              <a class="text-black font-semibold text-sm lg:text-lg hover:underline hover:underline-offset-8 hover:decoration-[#ed2224] hover:decoration-4"
                 href="./placement/placement.html">
                 Placements
               </a>
             </li>
             <li class="my-2 mx-3">
-              <a class="text-black font-semibold text-lg hover:underline hover:underline-offset-8 hover:decoration-[#ed2224] hover:decoration-4"
+              <a class="text-black font-semibold text-sm lg:text-lg hover:underline hover:underline-offset-8 hover:decoration-[#ed2224] hover:decoration-4"
                 href="./aboutUs/about.html">
                 About us
               </a>
             </li>
             <li class="my-2 mx-3">
-              <a class="text-black font-semibold text-lg hover:underline hover:underline-offset-8 hover:decoration-[#ed2224] hover:decoration-4"
+              <a class="text-black font-semibold text-sm lg:text-lg hover:underline hover:underline-offset-8 hover:decoration-[#ed2224] hover:decoration-4"
                 href="./blog/blog.html">
                 Blog
               </a>
             </li>
             <li class="my-2 mx-3">
-              <a class="text-black font-semibold text-lg hover:underline hover:underline-offset-8 hover:decoration-[#ed2224] hover:decoration-4"
+              <a class="text-black font-semibold text-sm lg:text-lg hover:underline hover:underline-offset-8 hover:decoration-[#ed2224] hover:decoration-4"
                 href="./events/events.html">
                 Events
               </a>
@@ -166,7 +171,7 @@
               Home
             </a>
           </li>
-          
+
           <li><button class="block hasSubMenu text-lg text-white">course<span class="inline-block"><svg
                   data-baseweb="icon" viewBox="0 0 24 24" class="ml-1 w-4 h-4 fill-current chevron">
                   <title>Chevron Down</title>
@@ -174,7 +179,7 @@
                     d="M9 12C9 12.2652 9.10536 12.5196 9.29289 12.7071L13.2929 16.7071C13.6834 17.0976 14.3166 17.0976 14.7071 16.7071C15.0976 16.3166 15.0976 15.6834 14.7071 15.2929L11.4142 12L14.7071 8.70711C15.0976 8.31658 15.0976 7.68342 14.7071 7.29289C14.3166 6.90237 13.6834 6.90237 13.2929 7.29289L9.29289 11.2929C9.10536 11.4804 9 11.7348 9 12Z">
                   </path>
                 </svg> </span> </button>
-            <ul class="bg-white text-sm subMenu hidden">
+            <ul class="bg-white text-sm subMenu hidden ">
               <li class=""><a class="rounded-t py-1 px-4 block whitespace-no-wrap" href="./uiux/uiux.html">UIUX
                   Designing</a></li>
               <li class=""><a class="py-1 px-4 block whitespace-no-wrap" href="./frontend/frontend.html">Frontend
@@ -195,7 +200,8 @@
                   Development</a></li>
               <li class=""><a class="rounded-b py-1 px-4 block whitespace-no-wrap" href="./angular/angular.html">Angular
                   Development</a></li>
-              <li class=""><a class="rounded-b py-1 px-4 block whitespace-no-wrap" href="./reactnative/reatcnative.html">React Native
+              <li class=""><a class="rounded-b py-1 px-4 block whitespace-no-wrap"
+                  href="./reactnative/reatcnative.html">React Native
                   Development</a></li>
               <li class=""><a class="rounded-b py-1 px-4 block whitespace-no-wrap" href="./vue/vue.html">Vue
                   Development</a></li>
@@ -242,8 +248,8 @@
 
 
   <section class="pt-1" id="home">
-    <div class='container-2xl mx-auto h-auto mb-20 lg:mb-20'>
-      <div class='mx-auto maindiv px-5 md:px-8'>
+    <div class='container h-auto mb-20 lg:mb-20'>
+      <div class=' my-10'>
         <div class="sm:flex">
           <div class="sm:order-2">
             <div class="sm:hidden">
@@ -251,7 +257,9 @@
               </h1>
               <h1 class='font-bold text-[#ed2224] text-3xl sm:text-4xl lg:text-5xl'>SkillQode</h1>
             </div>
-            <img src="../Asset/Bg-img.png" class="" alt="">
+            <div class="-z-50">
+              <img src="../Asset/Bg-img.png" class="" alt="">
+            </div>
           </div>
           <div class="w-full lg:w-2/3 sm::order-1">
             <div class='mt-10 lg:mt-20'>
@@ -275,7 +283,7 @@
                   <img src='../Asset/button.png' class='w-1/2 sm:w-5 mx-2 sm:mx-4' />
                 </div>
                 <div class='border border-black border-l-0 rounded-e-2xl flex items-center py-2 sm:py-3'>
-                  <p class='mx-3 w-24 sm:w-36 text-[10px] sm:text-sm'>Boost Your Skill With Skillqode</p>
+                  <p class='mx-3 w-24 sm:w-36 text-[10px] sm:text-sm font-bold sm:font-normal'>Boost Your Skill With Skillqode</p>
                 </div>
               </div>
               <a href="#blog">
@@ -312,7 +320,6 @@
         </div>
       </div>
     </div>
-    </div>
   </section>
 
 
@@ -324,9 +331,9 @@
 
 
 
-  <section class="bg-[#FAFAFA]" id="">
-    <div class='container-2xl py-10' id="">
-      <div class="maindiv h-auto mx-auto my-10 px-5 md:px-8">
+  <section class="bg-[#FAFAFA]" id="course">
+    <div class='container py-10 mx-auto h-auto' id="">
+      <div class=' my-10'>
         <div class="flex justify-between items-center">
           <h2 class='text-2xl sm:text-4xl font-bold'><span class=''>Popular</span> Courses</h2>
 
@@ -342,7 +349,7 @@
                   <h3 class="text-lg sm:text-xl lg:text-xl font-semibold">UI/UX Design</h3>
                   <a href="./uiux/uiux.html">
                     <button id="openModal"
-                      class="px-5 sm:px-10 py-1.5 mt-2 sm:mt-4 bg-[#ed2224] text-white rounded-full border border-[#ed2224] hover:bg-red-100 hover:text-[#ed2224] hover:duration-300">Explore</button>
+                      class="px-8 sm:px-10 py-1.5 mt-2 sm:mt-4 bg-[#ed2224] text-white rounded-full border border-[#ed2224] hover:bg-red-100 hover:text-[#ed2224] hover:duration-300">Explore</button>
                   </a>
                 </div>
               </div>
@@ -356,7 +363,7 @@
                   <h3 class="text-lg sm:text-xl lg:text-xl font-semibold">Frontend Development</h3>
                   <a href="./frontend/frontend.html">
                     <button id="openModal"
-                      class="px-5 sm:px-10 py-1.5 mt-2 sm:mt-4 bg-[#ed2224] text-white rounded-full border border-[#ed2224] hover:bg-red-100 hover:text-[#ed2224] hover:duration-300">Explore</button>
+                      class="px-8 sm:px-10 py-1.5 mt-2 sm:mt-4 bg-[#ed2224] text-white rounded-full border border-[#ed2224] hover:bg-red-100 hover:text-[#ed2224] hover:duration-300">Explore</button>
                   </a>
                 </div>
               </div>
@@ -370,7 +377,7 @@
                   <h3 class="text-lg sm:text-xl lg:text-xl font-semibold">Backend Development</h3>
                   <a href="./backend/backend.html">
                     <button id="openModal"
-                      class="px-5 sm:px-10 py-1.5 mt-2 sm:mt-4 bg-[#ed2224] text-white rounded-full border border-[#ed2224] hover:bg-red-100 hover:text-[#ed2224] hover:duration-300">Explore</button>
+                      class="px-8 sm:px-10 py-1.5 mt-2 sm:mt-4 bg-[#ed2224] text-white rounded-full border border-[#ed2224] hover:bg-red-100 hover:text-[#ed2224] hover:duration-300">Explore</button>
                   </a>
                 </div>
               </div>
@@ -384,7 +391,7 @@
                   <h3 class="text-lg sm:text-xl lg:text-xl font-semibold">Full Stack Development</h3>
                   <a href="./fullstack/fullstack.html">
                     <button id="openModal"
-                      class="px-5 sm:px-10 py-1.5 mt-2 sm:mt-4 bg-[#ed2224] text-white rounded-full border border-[#ed2224] hover:bg-red-100 hover:text-[#ed2224] hover:duration-300">Explore</button>
+                      class="px-8 sm:px-10 py-1.5 mt-2 sm:mt-4 bg-[#ed2224] text-white rounded-full border border-[#ed2224] hover:bg-red-100 hover:text-[#ed2224] hover:duration-300">Explore</button>
                   </a>
                 </div>
               </div>
@@ -398,7 +405,7 @@
                   <h3 class="text-lg sm:text-xl lg:text-xl font-semibold">Flutter Development</h3>
                   <a href="./flutter/flutter.html">
                     <button id="openModal"
-                      class="px-5 sm:px-10 py-1.5 mt-2 sm:mt-4 bg-[#ed2224] text-white rounded-full border border-[#ed2224] hover:bg-red-100 hover:text-[#ed2224] hover:duration-300">Explore</button>
+                      class="px-8 sm:px-10 py-1.5 mt-2 sm:mt-4 bg-[#ed2224] text-white rounded-full border border-[#ed2224] hover:bg-red-100 hover:text-[#ed2224] hover:duration-300">Explore</button>
                   </a>
                   </a>
                 </div>
@@ -413,7 +420,7 @@
                   <h3 class="text-lg sm:text-xl lg:text-xl font-semibold">Android Development</h3>
                   <a href="./android/android.html">
                     <button id="openModal"
-                      class="px-5 sm:px-10 py-1.5 mt-2 sm:mt-4 bg-[#ed2224] text-white rounded-full border border-[#ed2224] hover:bg-red-100 hover:text-[#ed2224] hover:duration-300">Explore</button>
+                      class="px-8 sm:px-10 py-1.5 mt-2 sm:mt-4 bg-[#ed2224] text-white rounded-full border border-[#ed2224] hover:bg-red-100 hover:text-[#ed2224] hover:duration-300">Explore</button>
                   </a>
                 </div>
               </div>
@@ -427,7 +434,7 @@
                   <h3 class="text-lg sm:text-xl lg:text-xl font-semibold">Python Development</h3>
                   <a href="./python/python.html">
                     <button id="openModal"
-                      class="px-5 sm:px-10 py-1.5 mt-2 sm:mt-4 bg-[#ed2224] text-white rounded-full border border-[#ed2224] hover:bg-red-100 hover:text-[#ed2224] hover:duration-300">Explore</button>
+                      class="px-8 sm:px-10 py-1.5 mt-2 sm:mt-4 bg-[#ed2224] text-white rounded-full border border-[#ed2224] hover:bg-red-100 hover:text-[#ed2224] hover:duration-300">Explore</button>
                   </a>
                 </div>
               </div>
@@ -441,7 +448,7 @@
                   <h3 class="text-lg sm:text-xl lg:text-xl font-semibold">ios Development</h3>
                   <a href="./ios/ios.html">
                     <button id="openModal"
-                      class="px-5 sm:px-10 py-1.5 mt-2 sm:mt-4 bg-[#ed2224] text-white rounded-full border border-[#ed2224] hover:bg-red-100 hover:text-[#ed2224] hover:duration-300">Explore</button>
+                      class="px-8 sm:px-10 py-1.5 mt-2 sm:mt-4 bg-[#ed2224] text-white rounded-full border border-[#ed2224] hover:bg-red-100 hover:text-[#ed2224] hover:duration-300">Explore</button>
                   </a>
                 </div>
               </div>
@@ -456,7 +463,7 @@
                   <h3 class="text-lg sm:text-xl lg:text-xl font-semibold">php Development</h3>
                   <a href="./php/php.html">
                     <button id="openModal"
-                      class="px-5 sm:px-10 py-1.5 mt-2 sm:mt-4 bg-[#ed2224] text-white rounded-full border border-[#ed2224] hover:bg-red-100 hover:text-[#ed2224] hover:duration-300">Explore</button>
+                      class="px-8 sm:px-10 py-1.5 mt-2 sm:mt-4 bg-[#ed2224] text-white rounded-full border border-[#ed2224] hover:bg-red-100 hover:text-[#ed2224] hover:duration-300">Explore</button>
                   </a>
                 </div>
               </div>
@@ -470,7 +477,7 @@
                   <h3 class="text-lg sm:text-xl lg:text-xl font-semibold">Angular Design</h3>
                   <a href="./angular/angular.html">
                     <button id="openModal"
-                      class="px-5 sm:px-10 py-1.5 mt-2 sm:mt-4 bg-[#ed2224] text-white rounded-full border border-[#ed2224] hover:bg-red-100 hover:text-[#ed2224] hover:duration-300">Explore</button>
+                      class="px-8 sm:px-10 py-1.5 mt-2 sm:mt-4 bg-[#ed2224] text-white rounded-full border border-[#ed2224] hover:bg-red-100 hover:text-[#ed2224] hover:duration-300">Explore</button>
                   </a>
                 </div>
               </div>
@@ -484,7 +491,7 @@
                   <h3 class="text-lg sm:text-xl lg:text-xl font-semibold">React Native Development</h3>
                   <a href="./reactnative/reatcnative.html">
                     <button id="openModal"
-                      class="px-5 sm:px-10 py-1.5 mt-2 sm:mt-4 bg-[#ed2224] text-white rounded-full border border-[#ed2224] hover:bg-red-100 hover:text-[#ed2224] hover:duration-300">Explore</button>
+                      class="px-8 sm:px-10 py-1.5 mt-2 sm:mt-4 bg-[#ed2224] text-white rounded-full border border-[#ed2224] hover:bg-red-100 hover:text-[#ed2224] hover:duration-300">Explore</button>
                   </a>
                 </div>
               </div>
@@ -498,20 +505,15 @@
                   <h3 class="text-lg sm:text-xl lg:text-xl font-semibold">Vue Development</h3>
                   <a href="./vue/vue.html">
                     <button id="openModal"
-                      class="px-5 sm:px-10 py-1.5 mt-2 sm:mt-4 bg-[#ed2224] text-white rounded-full border border-[#ed2224] hover:bg-red-100 hover:text-[#ed2224] hover:duration-300">Explore</button>
+                      class="px-8 sm:px-10 py-1.5 mt-2 sm:mt-4 bg-[#ed2224] text-white rounded-full border border-[#ed2224] hover:bg-red-100 hover:text-[#ed2224] hover:duration-300">Explore</button>
                   </a>
                 </div>
               </div>
             </div>
-
           </div>
         </div>
-
-
-
       </div>
     </div>
-
   </section>
 
 
@@ -522,14 +524,15 @@
 
 
 
-  <section id="">
-    <div class="container-2xl mx-auto h-auto" id="">
-      <div class="mx-auto maindiv px-5 md:px-8 my-10 sm:my-10 md:my-20">
-        <h2 class='text-2xl sm:text-4xl font-bold'><span class=''> Our <p class="text-[#ed2224] inline">Successful</p>
-          </span> Student</h2>
+  <section id="placement">
+    <div class="h-auto" id="">
+      <div class="container">
+        <div class="my-10 sm:my-10 md:my-20">
+          <h2 class='text-2xl sm:text-4xl font-bold'><span class=''> Our <p class="text-[#ed2224] inline">Successful</p>
+            </span> Student</h2>
+        </div>
       </div>
-
-      <div class="student1 my-3 sm:my-12 md:my-20 w-full mx-auto">
+      <div class="student1 my-3 sm:my-10 md:my-20 w-full mx-auto">
         <div class="glide__track" data-glide-el="track">
           <ul class="glide__slides">
 
@@ -926,10 +929,10 @@
   <!------------------------------------------------------------------->
 
 
-  <section id="">
+  <section id="aboutus">
     <div class="bg-[#FAFAFA] xs:mt-[70px] xs:mb-[70px] mt-5 sm:mt-10 py-7 sm:py-16" id="">
       <div
-        class="container-2xl xs:m-auto maindiv xl:pt-[30px] xl:pb-[60px] px-5 md:px-8">
+        class="container xl:pt-[30px] xl:pb-[60px] mx-auto">
         <h2
           class="text-center text-[rgb(255,0,0)] xs:text-[20px] sm:text-[25px] md:text-[35px] lg:text-[40px] xl:text-[40px] 2xl:text-[40px] font-bold">
           What we offer <br />
@@ -1011,15 +1014,15 @@
 
 
   <section>
-    <div class='container-2xl  mx-auto h-auto md:px-8'>
-      <div class='maindiv mx-auto px-5 md:px-8 my-10 sm:my-24 md:my-20'>
+    <div class='container h-auto'>
+      <div class=' my-10 sm:my-24 md:my-20'>
         <h2 class='text-2xl sm:text-4xl font-bold -mt-3 sm:mt-0'><span class=''>Students</span> Review</h2>
+
 
         <div class="wrapper my-16 pb-16">
           <div class="center-slider">
             <div>
-              <div
-                class="w-96 xs:w-80 ms:w-full sm:w-full md:w-auto h-auto bg-red-100 py-3 lg:py-7 p-1 xs:p-2 lg:p-5 rounded-xl sm:rounded-3xl">
+              <div class="w-70 xs:w-70 ms:w-full sm:w-full md:w-auto h-auto bg-red-100 py-3 lg:py-7 p-1 xs:p-2 lg:p-5 rounded-xl sm:rounded-3xl">
                 <div class="flex sm:gap-2 text-[12px] ms:text-[14px] md:text-lg lg:text-2xl text-[#ed2224]">
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
@@ -1045,7 +1048,7 @@
 
             <div>
               <div
-                class="w-96 xs:w-80 ms:w-full sm:w-full md:w-auto h-auto bg-red-100 py-3 lg:py-7 p-1 xs:p-2 lg:p-5 rounded-xl sm:rounded-3xl">
+                class="w-70 xs:w-70 ms:w-full sm:w-full md:w-auto h-auto bg-red-100 py-3 lg:py-7 p-1 xs:p-2 lg:p-5 rounded-xl sm:rounded-3xl">
                 <div class="flex sm:gap-2 text-[12px] ms:text-[14px] md:text-lg lg:text-2xl text-[#ed2224]">
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
@@ -1071,7 +1074,7 @@
 
             <div>
               <div
-                class="w-96 xs:w-80 ms:w-full sm:w-full md:w-auto h-auto bg-red-100 py-3 lg:py-7 p-1 xs:p-2 lg:p-5 rounded-xl sm:rounded-3xl">
+                class="w-70 xs:w-70 ms:w-full sm:w-full md:w-auto h-auto bg-red-100 py-3 lg:py-7 p-1 xs:p-2 lg:p-5 rounded-xl sm:rounded-3xl">
                 <div class="flex sm:gap-2 text-[12px] ms:text-[14px] md:text-lg lg:text-2xl text-[#ed2224]">
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
@@ -1097,7 +1100,7 @@
 
             <div>
               <div
-                class="w-96 xs:w-80 ms:w-full sm:w-full md:w-auto h-auto bg-red-100 py-3 lg:py-7 p-1 xs:p-2 lg:p-5 rounded-xl sm:rounded-3xl">
+                class="w-70 xs:w-70 ms:w-full sm:w-full md:w-auto h-auto bg-red-100 py-3 lg:py-7 p-1 xs:p-2 lg:p-5 rounded-xl sm:rounded-3xl">
                 <div class="flex sm:gap-2 text-[12px] ms:text-[14px] md:text-lg lg:text-2xl text-[#ed2224]">
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
@@ -1145,8 +1148,8 @@
 
 
   <section class="bg-[#FAFAFA]">
-    <div class="container-2xl mx-auto h-auto md:px-8">
-      <div class="mx-auto maindiv px-5 md:px-8 my-3 sm:my-10 md:my-20">
+    <div class="container h-auto">
+      <div class="my-3 sm:my-10 md:my-20">
         <div class="pt-10 sm:pt-10 md:pt-20">
           <h2 class='text-2xl sm:text-4xl font-bold'><span class=''>Our Hiring</span> Partner</h2>
 
@@ -1247,18 +1250,18 @@
       </div>
 
 
-      <section id="">
-        <div class="my-20 sm:py-20 md:py-32 relative maindiv mx-auto px-5 md:px-8">
+      <section id="blog">
+        <div class="my-20 sm:py-20 md:py-32 relative">
           <h2 class='text-2xl sm:text-4xl font-bold'><span class=''>Upcoming Demo</span> Classes</h2>
 
-          <div class="grid grid-cols-2 mt-10 sm:mt-16 gap-2 md:hidden">
+          <div class="grid grid-cols-2 mt-7 gap-2 md:hidden">
             <div class="w-full h-auto bg-[#ed2224] rounded-3xl text-white py-7 text-center">
-              <h2 class="font-medium text-lg">UI/UX Design</h2>
+              <h2 class="font-medium text-lg">Ui/Ux Development</h2>
               <p class="mt-5">Time: 4pm to 6pm</p>
               <p class="mt-4">Date: 08-11-2023</p>
               <a href="https://skillqode.in/go-to-inquiry" target="_blank">
                 <button
-                  class="text-[#ed2224] bg-white rounded-full px-8 py-2 mx-auto mt-7 border border-white hover:bg-[#ed2224] hover:text-white hover:border-white hover:duration-300">Apply
+                  class="text-[#ed2224] bg-white rounded-full px-6 sm:px-8 py-2 mx-auto mt-7 border border-white hover:bg-[#ed2224] hover:text-white hover:border-white hover:duration-300">Apply
                   Now</button>
               </a>
             </div>
@@ -1269,7 +1272,7 @@
               <p class="mt-4">Date: 08-11-2023</p>
               <a href="https://skillqode.in/go-to-inquiry" target="_blank">
                 <button
-                  class="text-[#ed2224] bg-white rounded-full px-8 py-2 mx-auto mt-7 border border-white hover:bg-[#ed2224] hover:text-white hover:border-white hover:duration-300">Apply
+                  class="text-[#ed2224] bg-white rounded-full px-6 sm:px-8 py-2 mx-auto mt-7 border border-white hover:bg-[#ed2224] hover:text-white hover:border-white hover:duration-300">Apply
                   Now</button>
               </a>
             </div>
@@ -1280,7 +1283,7 @@
               <p class="mt-4">Date: 08-11-2023</p>
               <a href="https://skillqode.in/go-to-inquiry" target="_blank">
                 <button
-                  class="text-[#ed2224] bg-white rounded-full px-8 py-2 mx-auto mt-7 border border-white hover:bg-[#ed2224] hover:text-white hover:border-white hover:duration-300">Apply
+                  class="text-[#ed2224] bg-white rounded-full px-6 sm:px-8 py-2 mx-auto mt-7 border border-white hover:bg-[#ed2224] hover:text-white hover:border-white hover:duration-300">Apply
                   Now</button>
               </a>
             </div>
@@ -1291,7 +1294,7 @@
               <p class="mt-4">Date: 08-11-2023</p>
               <a href="https://skillqode.in/go-to-inquiry" target="_blank">
                 <button
-                  class="text-[#ed2224] bg-white rounded-full px-8 py-2 mx-auto mt-7 border border-white hover:bg-[#ed2224] hover:text-white hover:border-white hover:duration-300">Apply
+                  class="text-[#ed2224] bg-white rounded-full px-6 sm:px-8 py-2 mx-auto mt-7 border border-white hover:bg-[#ed2224] hover:text-white hover:border-white hover:duration-300">Apply
                   Now</button>
               </a>
             </div>
@@ -1307,7 +1310,7 @@
                 <p class="mt-4">Date: 08-11-2023</p>
                 <a href="https://skillqode.in/go-to-inquiry" target="_blank">
                   <button
-                    class="text-[#ed2224] bg-white rounded-full px-8 py-2 mx-auto mt-7 border border-white hover:bg-[#ed2224] hover:text-white hover:border-white hover:duration-300">Apply
+                    class="text-[#ed2224] bg-white rounded-full px-6 sm:px-8 py-2 mx-auto mt-7 border border-white hover:bg-[#ed2224] hover:text-white hover:border-white hover:duration-300">Apply
                     Now</button>
                 </a>
               </div>
@@ -1330,7 +1333,7 @@
 
 
             <div class="flex mt-20 xl:mt-32 2xl:mt-40 ml-0 2xl:ml-32">
-              <div class="w-40 lg:w-48 max-h-[236px] bg-[#ed2224] rounded-3xl text-white pb-7 lg:py-7 text-center z-10">
+              <div class="w-40 lg:w-48 max-h-[236px] bg-[#ed2224] rounded-3xl text-white py-7 text-center z-10">
                 <h2 class="font-medium text-lg">App Development</h2>
                 <p class="mt-5">Time: 4pm to 6pm</p>
                 <p class="mt-4">Date: 08-11-2023</p>
@@ -1360,7 +1363,7 @@
             <img src="../Asset/Vector 4.png" alt=""
               class="hidden lg:block absolute top-[360px] right-64 me-2 lg:pl-[590px] xl:pl-0 z-0">
             <img src="../Asset/Vector 1.png" alt=""
-              class="hidden lg:block absolute top-[360px] xl:top-[360px] 2xl:top-[340px] right-64 me-1 pl-80 xl:pl-[00px] 2xl:pl-0">
+              class="hidden lg:block absolute top-[380px] xl:top-[360px] 2xl:top-[340px] right-64 me-1 pl-80 xl:pl-[500px] 2xl:pl-[600px]">
             <img src="../Asset/Vector 3.png" alt=""
               class="hidden lg:block absolute top-[475px] right-64 me-1 pl-[290px]">
             <img src="../Asset/Vector 2.png" alt=""
@@ -1381,8 +1384,8 @@
 
 
   <section>
-    <div class='container-2xl mx-auto h-auto md:px-8'>
-      <div class='mx-auto px-5 md:px-8 maindiv my-10 sm:my-20 md:my-32'>
+    <div class='container h-auto'>
+      <div class='mx-auto my-10 sm:my-20 md:my-32'>
         <h2 class='text-2xl sm:text-4xl font-bold'><span class=''>Frequently Asked</span> Questions
         </h2>
 
@@ -1488,10 +1491,10 @@
   <!------------------------------------------------------------------->
 
 
-  <section id="">
+  <section id="event">
     <div class="">
       <div class="bg-[#FAFAFA] py-5 h-auto mx-auto">
-        <div class="container-2xl xs:m-auto h-auto px-4 xl:px-32 2xl:px-64">
+        <div class="container xs:m-auto h-auto">
           <div class="xl:pt-16">
             <h2 class='text-2xl sm:text-4xl font-bold'><span class=''>SkillQode</span> Family</h2>
           </div>
@@ -1536,23 +1539,24 @@
 
 
   <section>
-    <div class='container-2xl mx-auto h-auto md:pl-8 my-3 sm:my-10 md:my-20'>
-      <div class='mx-auto maindiv px-5 md:px-8 my-10'>
+    <div class='container mx-auto h-auto my-3 sm:my-10 md:my-20'>
+      <div class='my-10'>
         <h2 class='text-2xl sm:text-4xl font-bold'>Hurry Up To Build Your Skill</h2>
         <h2 class='text-2xl sm:text-4xl font-bold mt-3'><span class=''>With <p class="text-[#ed2224] inline">SkillQode
             </p></span></h2>
+
       </div>
 
-      <div class="px-5 md:px-8 maindiv mx-auto h-auto sm:flex items-center justify-between sm:-mt-20">
+      <div class="  h-auto sm:flex items-center justify-between sm:-mt-20">
         <div class="my-5 block sm:hidden">
-          <img src="../Asset/certi2.png" alt="" class="w-full pe-3">
+          <img src="../Asset/certi2.png" alt="" class="w-full px-3">
         </div>
-        <div class="flex sm:block w-full sm:w-auto justify-between items-center gap-3 xs:gap-7">
+        <div class="flex sm:block w-full sm:w-auto justify-between items-center gap-1 xs:gap-7">
           <button
             class="text-white bg-[#ed2224] text-sm lg:text-lg w-1/2 sm:w-40 lg:w-auto xl:w-96 h-14 font-semibold rounded-lg">Book
             Your Free Trial, Now <i class="fa-solid fa-angle-right"></i></button>
           <a href="https://skillqode.in/go-to-inquiry">
-            <button class="w-44 sm:w-44 lg:w-56 h-14 shadow-2xl mt-0 sm:mt-10 block font-bold text-lg">Enquire Now <i
+            <button class="w-44 sm:w-44 lg:w-56 h-14 shadow-lg mt-0 sm:mt-10 block font-bold text-lg">Enquire Now <i
                 class="fa-solid fa-angle-right"></i></button>
           </a>
         </div>
@@ -1584,7 +1588,7 @@
 
   <div class='w-[100%] bg-[#ed2224] mt-10'>
     <div
-      class='mx-auto px-5 md:px-8 maindiv'>
+      class='xs:m-auto xs:max-w-full px-4 sm:px-0 sm:max-w-[600px] md:max-w-[700px] lg:max-w-[950px] xl:max-w-[1200px] 2xl:max-w-[1500px]'>
       <div class='grid xs:grid-cols-1 md:grid-cols-2'>
         <div>
           <div class='py-10 pb-0'>

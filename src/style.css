@@ -11,7 +11,7 @@ body {
   /* color: linear ; */
   background: linear-gradient(to right, #f24e1e, #a259ff,#1abcfe, #0ACF83,#ff7262);
   -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+  -webkit-background-clip: text;
 }
 
 
@@ -100,13 +100,41 @@ h2 span::after {
 .prev-arrow1 {
   position: absolute;
   top: -8%;
-  right: 6%;
+  right: 5%;
 }
 
 .next-arrow1 {
   position: absolute;
   top: -8%;
-  right: 0%;
+  right: 1%;
+}
+
+@media only screen and (max-width: 1100px) {
+  .prev-arrow1 {
+    position: absolute;
+    top: -10%;
+    right: 7%;
+  }
+
+  .next-arrow1 {
+    position: absolute;
+    top: -10%;
+    right: 1%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .prev-arrow1 {
+    position: absolute;
+    top: -10%;
+    right: 8%;
+  }
+
+  .next-arrow1 {
+    position: absolute;
+    top: -10%;
+    right: 1%;
+  }
 }
 
 @media only screen and (max-width: 530px) {
@@ -119,7 +147,7 @@ h2 span::after {
   .next-arrow1 {
     position: absolute;
     top: -10%;
-    right: 0%;
+    right: 1%;
   }
 }
 
@@ -141,26 +169,26 @@ h2 span::after {
   .center-slider .slick-slide {
     margin: 0 15px;
     padding: 20px 0px;
-    transform: scale(0.8);
-    transition: all 0.4s ease-in-out;
+    /* transform: scale(0.8); */
+    /* transition: all 0.4s ease-in-out; */
   }
 
-  .center-slider .slick-slide,
+  /* .center-slider .slick-slide,
   .center-slider .slick-slide[aria-hidden="true"]:not(.slick-cloned)~.slick-cloned[aria-hidden="true"] {
     transform: scale(0.8, 0.8);
     transition: all 0.4s ease-in-out;
-  }
+  } */
 
   /* Active center slide (You can change anything here for cenetr slide)*/
-  .center-slider .slick-center,
+  /* .center-slider .slick-center,
   .center-slider .slick-slide[aria-hidden="true"]:not([tabindex="-1"])+.slick-cloned[aria-hidden="true"] {
     transform: scale(1.1);
 
-  }
+  } */
 
-  .center-slider .slick-current.slick-active {
+  /* .center-slider .slick-current.slick-active {
     transform: scale(1.1);
-  }
+  } */
 }
 
 
@@ -217,13 +245,13 @@ h2 span::after {
 .prev-arrow {
   position: absolute;
   top: 95%;
-  left: 45%;
+  left: 46%;
 }
 
 .next-arrow {
   position: absolute;
   top: 95%;
-  right: 45%;
+  right: 46%;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -239,16 +267,16 @@ h2 span::after {
 }
 
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 768px) {
   .prev-arrow {
     position: absolute;
-    top: 80%;
+    top: 85%;
     left: 43%;
   }
 
   .next-arrow {
     position: absolute;
-    top: 80%;
+    top: 85%;
     right: 43%;
   }
 }

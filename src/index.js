@@ -31,6 +31,7 @@ closeMenuButton.addEventListener("click", () => {
   closeMenuButton.classList.add("hidden");
 });
 
+
 window.onscroll = function () {
   scrollFunction();
 };
@@ -38,20 +39,22 @@ window.onscroll = function () {
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     document.getElementById("navbar").style.top = "0px";
-    document.getElementById("logoimg").style.width = "200px";
+    document.getElementById("logoimg").style.width = "180px";
+    document.getElementById("logoimg").style.transitionDuration = "0.5s";
   } else {
     document.getElementById("navbar").style.top = "34px";
     document.getElementById("logoimg").style.width = "240px";
+    document.getElementById("logoimg").style.transitionDuration = "0.5s";
   }
 }
 
-$(window).scroll(function () {
-  if ($(window).scrollTop() > $("header").outerHeight()) {
-    $(".nav-wrapper").addClass("fixed");
-  } else {
-    $(".nav-wrapper").removeClass("fixed");
-  }
-});
+// $(window).scroll(function () {
+//   if ($(window).scrollTop() > $("header").outerHeight()) {
+//     $(".nav-wrapper").addClass("fixed");
+//   } else {
+//     $(".nav-wrapper").removeClass("fixed");
+//   }
+// });
 
 // $(document).ready(function () {
 //   $('a[href^="#"]').on("click", function (e) {
@@ -121,8 +124,8 @@ $("#popularCourses").slick({
   arrows: true,
   infinite: true,
   speed: 300,
-  slidesToShow: 3,
-  slidesToScroll: 3,
+  slidesToShow: 4,
+  slidesToScroll: 4,
   prevArrow:
     '<button class="slide-arrow prev-arrow1 bg-[#ed2224] hover:text-[#ed2224] hover:bg-white hover:duration-200 text-white w-7 sm:w-10 h-7 sm:h-10 rounded-full"><i class="fa-solid fa-angle-left"></i></button>',
   nextArrow:
@@ -243,7 +246,7 @@ new Glide(".student2", {
 
 $(document).ready(function () {
   $(".center-slider").slick({
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 1,
     centerMode: true,
     dots: true,
@@ -255,7 +258,7 @@ $(document).ready(function () {
     autoplay: false,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1280,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,

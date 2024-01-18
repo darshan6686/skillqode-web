@@ -124,8 +124,8 @@ $("#popularCourses").slick({
   arrows: true,
   infinite: true,
   speed: 300,
-  slidesToShow: 4,
-  slidesToScroll: 4,
+  slidesToShow: 3,
+  slidesToScroll: 3,
   prevArrow:
     '<button class="slide-arrow prev-arrow1 bg-[#ed2224] hover:text-[#ed2224] hover:bg-white hover:duration-200 text-white w-7 sm:w-10 h-7 sm:h-10 rounded-full"><i class="fa-solid fa-angle-left"></i></button>',
   nextArrow:
@@ -246,7 +246,7 @@ new Glide(".student2", {
 
 $(document).ready(function () {
   $(".center-slider").slick({
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
     centerMode: true,
     dots: true,

@@ -173,22 +173,22 @@ h2 span::after {
     /* transition: all 0.4s ease-in-out; */
   }
 
-  /* .center-slider .slick-slide,
+  .center-slider .slick-slide,
   .center-slider .slick-slide[aria-hidden="true"]:not(.slick-cloned)~.slick-cloned[aria-hidden="true"] {
     transform: scale(0.8, 0.8);
     transition: all 0.4s ease-in-out;
-  } */
+  }
 
   /* Active center slide (You can change anything here for cenetr slide)*/
-  /* .center-slider .slick-center,
+  .center-slider .slick-center,
   .center-slider .slick-slide[aria-hidden="true"]:not([tabindex="-1"])+.slick-cloned[aria-hidden="true"] {
     transform: scale(1.1);
 
-  } */
+  }
 
-  /* .center-slider .slick-current.slick-active {
+  .center-slider .slick-current.slick-active {
     transform: scale(1.1);
-  } */
+  }
 }
 
 
@@ -324,3 +324,16 @@ h2 span::after {
   margin: 0px auto;
   height: 50px;
 }
+
+
+
+/* -----------------------------------------------------------------
+                          Course Page                           
+  ------------------------------------------------------------------
+*/
+
+
+/* .image{
+  aspect-ratio: 4/3;
+  object-fit: cover;
+} */

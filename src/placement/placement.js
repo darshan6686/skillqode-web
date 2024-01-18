@@ -45,7 +45,7 @@ new Glide(".student3", {
     }
   },
 
-  gap: -150, // Adjust this value to control the gap between slides
+  gap: 16, // Adjust this value to control the gap between slides
   autoplay: 200, // Set to 0 to disable autoplay or adjust the delay in milliseconds
   hoverpause: true, // Pause autoplay on hover
   focusAt: "center", // Center the active slide
@@ -168,7 +168,6 @@ new Glide(".plcament2", {
   animationTimingFunc: "linear",
   animationDuration: 5000,
 }).mount();
-
 
 new Glide(".plcament3", {
   type: "carousel",

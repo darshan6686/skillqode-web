@@ -14,6 +14,9 @@ module.exports = {
     },
     container:{
       center:true,
+      screens: {
+        'width': '1280px'
+      }
     },
     extend: {},
   plugins: [],

@@ -124,8 +124,8 @@ $("#popularCourses").slick({
   arrows: true,
   infinite: true,
   speed: 300,
-  slidesToShow: 3,
-  slidesToScroll: 3,
+  slidesToShow: 4,
+  slidesToScroll: 1,
   prevArrow:
     '<button class="slide-arrow prev-arrow1 bg-[#ed2224] hover:text-[#ed2224] hover:bg-white hover:duration-200 text-white w-7 sm:w-10 h-7 sm:h-10 rounded-full"><i class="fa-solid fa-angle-left"></i></button>',
   nextArrow:

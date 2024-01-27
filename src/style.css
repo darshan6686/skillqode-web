@@ -331,3 +331,8 @@ h2 span::after {
                           Course Page                           
   ------------------------------------------------------------------
 */
+
+
+.skillqodefamily li:nth-child(even) {
+  margin-top: 60px;
+}
